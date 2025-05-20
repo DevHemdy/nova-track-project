@@ -244,7 +244,42 @@
       </div>
     </div>
   </section>
+
+  
+<section class="features">
+  <div class="section-title">
+      <h2 class="text-lg" >
+    Advanced Features Built for Modern Fleet Management
+  </h2>
+      <div class="btn">
+      <a href="#" class="button-primary"> Request a Consultation</a>
+    </div>
+  </div>
+
+  <div class="section-content">
+    <div class="row feature-cards">
+      <div class="col-xl-3 card" *ngFor="let item of advanceTool" >
+        <div class="card-header">
+          <img class="card-icon" src="{{item.icon}}" alt="" srcset="">
+        </div>
+        <div class="card-body">
+          <h4 class="text-lg">
+            {{item.title}}
+          </h4>
+          <p class="text-bdy-lg">{{item.text}}
+          </p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+</section>
 </div>
+
+
+
+
 
 <section class="footer d-flex footer-gradient">
   <div class="col-xl-3 footer-image-container">

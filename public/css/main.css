@@ -572,7 +572,7 @@ body {
   padding: 0;
   font-family: var(--font-primary);
   width: 100%;
-  background-color: white;
+  background-color: #F5F5F5;
   color: var(--color-dark-1);
   font-size: 16px;
   line-height: 1.875;
