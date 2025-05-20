@@ -1,43 +1,43 @@
-.header {
-  background-color: transparent;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  z-index: 1000;
-}
+// .header {
+//   background-color: transparent;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   transition: background-color 0.3s ease, box-shadow 0.3s ease;
+//   z-index: 1000;
+// }
 
-.header.scrolled {
-  background-color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
+// .header.scrolled {
+//   background-color: white;
+//   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+// }
 
-/* Keep your existing styles */
-.header-wrapper {
-  padding: 20px 0;
-}
+// /* Keep your existing styles */
+// .header-wrapper {
+//   padding: 20px 0;
+// }
 
-.nav {
-  margin-top: 10px;
-}
+// .nav {
+//   margin-top: 10px;
+// }
 
-.menu-list {
-  gap: 32px;
-}
+// .menu-list {
+//   gap: 32px;
+// }
 
-.header-buttons {
-  gap: 7px;
-}
+// .header-buttons {
+//   gap: 7px;
+// }
 
-.sec-btn {
-  padding: 9px 32px;
-  border-radius: 40px;
-}
+// .sec-btn {
+//   padding: 9px 32px;
+//   border-radius: 40px;
+// }
 
-.pry-btn {
-  background-color: #055A9D;
-  color: white;
-  padding: 9px 32px;
-  border-radius: 40px;
-}
+// .pry-btn {
+//   background-color: #055A9D;
+//   color: white;
+//   padding: 9px 32px;
+//   border-radius: 40px;
+// }

@@ -5,6 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 *,
 :after,
 :before {
@@ -441,36 +443,89 @@ progress {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-    --bs-blue: #0d6efd;
-    --bs-indigo: #6610f2;
-    --bs-purple: #6f42c1;
-    --bs-pink: #d63384;
-    --bs-red: #dc3545;
-    --bs-orange: #fd7e14;
-    --bs-yellow: #ffc107;
-    --bs-green: #198754;
-    --bs-teal: #20c997;
-    --bs-cyan: #0dcaf0;
-    --bs-white: #fff;
-    --bs-gray: #6c757d;
-    --bs-gray-dark: #343a40;
-    --bs-gray-100: #f8f9fa;
-    --bs-gray-200: #e9ecef;
-    --bs-gray-300: #dee2e6;
-    --bs-gray-400: #ced4da;
-    --bs-gray-500: #adb5bd;
-    --bs-gray-600: #6c757d;
-    --bs-gray-700: #495057;
-    --bs-gray-800: #343a40;
-    --bs-gray-900: #212529;
-    --bs-primary: #0d6efd;
-    --bs-secondary: #6c757d;
-    --bs-success: #198754;
-    --bs-info: #0dcaf0;
-    --bs-warning: #ffc107;
-    --bs-danger: #dc3545;
-    --bs-light: #f8f9fa;
-    --bs-dark: #212529;
+    --grin-005: #D6F3E2;
+    --grin-004: #DEF6E8;
+    --grin-003: #E6F8ED;
+    --grin-002: #EFFAF3;
+    --grin-001: #F5FCF8;
+
+    --nova-grin-11: #022510;
+    --nova-grin-10: #033d1B;
+    --nova-grin-09: #055C28;
+    --nova-grin-08: #077B35;
+    --nova-grin-07: #089943;
+    --nova-grin-06: #0ABB50;
+    --nova-grin-05: #33C46D;
+    --nova-grin-04: #5CD0BA;
+    --nova-grin-03: #5CD0BA;
+    --nova-grin-02: #84DBA7;
+    --nova-grin-01: #ADE7C5;
+    --nova-grin-11: #CEF1DC;
+
+
+    --night-11: #09090A;
+    --night-10: #0F1010;
+    --night-09: #171718;
+    --night-08: #1F1F20;
+    --night-07: #262628;
+    --night-06: #2E2F30;
+    --night-05: #4F5154;
+    --night-04: #717378;
+    --night-03: #94969A;
+    --night-02: #BBB9BC;
+    --night-01: #D4D5D7;
+    
+    --nova-teal-11: #01222D;
+    --nova-teal-10: #02394B;
+    --nova-teal-09: #035670;
+    --nova-teal-08: #047395;
+    --nova-teal-07: #058FBB;
+    --nova-teal-06: #06ACE0;
+    --nova-teal-05: #30BAE5;
+    --nova-teal-04: #59C8EA;
+    --nova-teal-03: #82D5EF;
+    --nova-teal-02: #ACE3F5;
+    --nova-teal-01: #CDEEF9;
+
+
+    --nova-cloudy-11: #01121F;
+    --nova-cloudy-10: #021E34;
+    --nova-cloudy-09: #032D4F;
+    --nova-cloudy-08: #033C69;
+    --nova-cloudy-07: #044B83;
+    --nova-cloudy-06: #055A9D;
+    --nova-cloudy-05: #2F76AD;
+    --nova-cloudy-04: #5891BE;
+    --nova-cloudy-03: #82ACCE;
+    --nova-cloudy-02: #ACC8DE;
+    --nova-cloudy-01: #CDDEEB;
+
+    --nova-purple-11: #080516;
+    --nova-purple-10: #0e0925;
+    --nova-purple-09: #150e37;
+    --nova-purple-08: #1c1249;
+    --nova-purple-07: #23175c;
+    --nova-purple-06: #2a1b5c;
+    --nova-purple-05: #4E4186;
+    --nova-purple-04: #71679E;
+    --nova-purple-03: #948DB6;
+    --nova-purple-02: #B8B3CF;
+    --nova-purple-01: #D4D1E2;
+
+    --nova-lemon-11: #1F280D;
+    --nova-lemon-10: #344216;
+    --nova-lemon-09: #4f6421;
+    --nova-lemon-08: #69852B;
+    --nova-lemon-07: #83A636;
+    --nova-lemon-06: #9DC741;
+    --nova-lemon-05: #ADD061;
+    --nova-lemon-04: #BEDA80;
+    --nova-lemon-03: #CEE3A0;
+    --nova-lemon-02: #DEECC0;
+    --nova-lemon-01: #EBF4D9;
+
+
+
     --bs-primary-rgb: 13, 110, 253;
     --bs-secondary-rgb: 108, 117, 125;
     --bs-success-rgb: 25, 135, 84;
@@ -483,10 +538,10 @@ progress {
     --bs-black-rgb: 0, 0, 0;
     --bs-body-color-rgb: 33, 37, 41;
     --bs-body-bg-rgb: 255, 255, 255;
-    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-manrope: system-ui, -apple-system, "Manrope", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, hsla(0, 0%, 100%, 0.15), hsla(0, 0%, 100%, 0));
-    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-family: var( --bs-font-manrope);
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
