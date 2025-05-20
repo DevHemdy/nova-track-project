@@ -1,0 +1,281 @@
+.home-wrapper {
+  background: 
+    linear-gradient(to right, rgb(255, 255, 255),  rgba(255, 255, 255, 0.945),  rgba(255, 255, 255, 0.829), rgba(255, 255, 255, 0)), /* white gradient */
+    url('/img/background/hero/4b710bb738de5edb7ea6dcd8055f88a3fe2b88e7.jpg'); /* background image */
+  background-size: cover;
+  background-position: center;
+}
+.hero-section {
+  padding: 10rem 0;
+  background-position: cover;
+}
+.hero-content {
+  max-width: 552px;
+}
+
+.hero-title {
+  font-weight: 600px;
+}
+
+.hero-text {
+  font-size: 16px;
+  width: 497px;
+}
+
+.btn{
+  margin: 2rem 0;
+}
+
+.hero-btn {
+  background-color: #055a9d;
+  color: white;
+  border-radius: 40px;
+  padding: 9px 32px;
+}
+
+
+
+
+// +++++++++++++ section +++++++++++++++++
+
+.section-title .title{
+  padding: 2rem 0;
+}
+
+
+
+// ++++++++++ overview +++++++++++++++
+ .overview-section{
+  background: url(/img/background/hero/Rectangle\ \(Traced\).png);
+  padding: 3rem 0;
+}
+
+.overview-container{
+  width: 756px;
+}
+
+.overview-container.section-title{
+  width: 626px;
+  font-size: 32px;
+}
+.company-overview{
+  max-width: 732px;
+}
+
+
+
+// ++++++++++++ trusted businesses ++++++++++++++++++
+
+.businesses{
+  background-color: rgba(240, 239, 239, 0.87);
+  padding: 6rem 0;
+}
+
+.business{
+  border-left: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+.business-1{
+  border-left: 0 !important;
+}
+
+
+// ++++++++++++ CTA ++++++++++++++++++
+
+.cta{
+  width: 1440px;
+margin: 5rem auto;
+
+}
+
+
+.cta-cards{
+  justify-content: space-evenly;
+}
+.cta-card{
+  background-color: white;
+  width: 340px;
+  height: 180px;
+  border: .5px solid rgba(128, 128, 128, 0.356);
+  border-radius: 25px;
+  text-align: center;
+  padding: 24px;
+  gap: 3px;
+}
+
+
+
+// ++++++++++ our services +++++++++++++++
+
+.services{
+  background-color: rgba(223, 222, 222, 0.507);
+  padding: 5rem 0;
+}
+.service-list-item{
+  gap: 2rem;
+}
+
+
+
+.left-col-content{
+  padding: 4rem 0;
+  max-width: 490px;
+}
+
+
+
+
+// +++++++ real-time +++++++++
+.real-time{
+  padding: 5rem 0;
+}
+
+.service-map{
+  position: absolute;
+  top: 203%;
+  left: 40%;
+}
+
+
+// ++++++ geofencing ++++++++
+.geofencing{
+  padding: 10rem 0;
+}
+
+// ++++++ integration-card-1 ++++++++++++++
+
+.system-integration{
+  margin: 5rem 0;
+  padding: 4rem 0;
+}
+
+.integration-card{
+  margin: 2rem 0;
+  padding: 2rem;
+}
+.integration-card-1{
+  background-color: rgba(214, 214, 214, 0.596);
+}
+
+.integration-card-2{
+  background-color: #047395;
+}
+
+.integration-card-3{
+  background-color: #CDEEF9;
+}
+.integration-card-1 .card-content .text{
+  font-size: 20px;
+}
+
+.integration-card-2 .card-content .text{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.integration-card-3 .card-image{
+  margin-top: 10rem;
+}
+
+.services .btn{
+  margin: 1rem 0 !important;
+}
+
+.btn .integration{
+  background-color: rgba(255, 255, 255, 0.144);
+  color: #047395;
+  
+}
+
+.btn .inverse{
+  background-color: white;
+  color: #047395;
+}
+
+
+.expertise{
+  padding: 5rem 0;
+}
+
+.expertise-card{
+  background-color: rgba(92, 92, 92, 0.055) !important;
+
+}
+
+
+// +++++++++++++++ innovative fleet management section 2 ++++++++++
+.fleet-management-section {
+  background-color:#080516;
+  padding: 5rem 0;
+}
+
+.management-cards {
+  gap: 10px;
+}
+
+.management-card {
+  height: fit-content !important;
+}
+
+.card-1 {
+  background: linear-gradient(125deg, #0e0925, #35228b, );
+}
+
+.card-2 {
+  background: linear-gradient(125deg, #047395, #0e0925, );
+}
+
+.card-3 {
+  background: linear-gradient(125deg, #344216, #0e0925, );
+}
+
+.card-1 .card-title .title,
+.card-2 .card-title .title,
+.card-3 .card-title .title,
+.card-4 .card-title .title {
+  color: white;
+}
+
+.card-1 .card-lists,
+.card-2 .card-lists,
+.card-3 .card-lists,
+.card-4 .card-lists {
+  color: #cfe0ec99;
+}
+
+
+// ++++++++++++ expereince section ++++++++++
+
+.experience {
+  padding: 5rem 0;
+}
+.cards {
+  padding: 2rem 0;
+}
+.card {
+  background-color: white;
+  width: 389px;
+  top: 154px;
+  left: 120px;
+  border-radius: 12px;
+  border-width: 1px;
+  padding: 16px;
+}
+
+.experience-btn {
+  text-align: center;
+}
+
+
+.shape-container{
+    position: absolute;
+    top: 661%;
+    z-index: -1;
+}
+
+.shape-container-2{
+    position: absolute;
+    right: 0%;
+    z-index: -1;
+}
