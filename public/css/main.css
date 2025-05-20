@@ -660,6 +660,7 @@ button:focus {
   background: #FFF;
   color: var(--nova-cloudy-06);
   text-align: center;
+  border: 1px solid var(--nova-cloudy-06);
 }
 
 
