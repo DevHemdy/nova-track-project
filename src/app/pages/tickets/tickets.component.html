@@ -1,1 +1,45 @@
-<p>tickets works!</p>
+<div class="container">
+  <section class="hero d-flex">
+    <div class="col-xl-6 left-col">
+      <h1 class="text-40">Let’s Get You Moving Smarter.</h1>
+      <p class="text-20">
+        Whether you need support, a custom quote, or want to learn more about
+        our solutions — we're here for you.
+      </p>
+    </div>
+    <div class="col-xl-6 right-col">
+      <img src="/assets/tickets/Rectangle 3.png" alt="" srcset="" />
+    </div>
+  </section>
+</div>
+
+<div class="container">
+        <div class="section-content">
+      <div class="row ticket-cards">
+        <div class="col-xl-3 card" *ngFor="let item of advanceTool">
+          <div class="card-header">
+            <img class="card-icon" src="{{ item.icon }}" alt="" srcset="" />
+          </div>
+          <div class="card-body">
+            <h4 class="text-20">
+              {{ item.title }}
+            </h4>
+            <p class="text-16">{{ item.text }}</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+<section class="cta">
+  <h1 class="text-32">Do you want to raise a ticket?</h1>
+  <p class="text-18">
+    Whether you need support, a custom quote, or want to learn more about our
+    solutions — we're here for you.
+  </p>
+
+  <div class="btn">
+    <a href="#" class="button-primary">Submit a ticket</a>
+  </div>
+</section>

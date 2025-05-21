@@ -1,18 +1,22 @@
+
+// footer
 .footer-gradient {
   background: linear-gradient(to top, #daedf6, #f5f5f5);
 }
 
 .footer-image-container {
   position: absolute;
-  top: 269%;
+  // top: 492%;
   width: 80rem;
+  right: 30%;
 }
 
 .footer-image-container-right {
   position: absolute;
   width: 80rem;
-  top: 269%;
-  left: 60%;
+  // top: 492%;
+  text-align: end;
+  left: 30%;
 }
 
 .footer-text-container {
@@ -21,6 +25,7 @@
 
 .footer {
   padding: 149px 0;
+  position: relative;
 }
 
 .footer .text-bdy {
@@ -31,3 +36,5 @@
 .footer .btn {
   margin: auto;
 }
+
+
