@@ -402,3 +402,52 @@ li{
   top: 30%;
   left: 42%;
 }
+
+
+
+
+
+//Slider
+
+.swiper {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.swiper-slide {
+  width: 100px; /* You can vary widths here */
+  height: 250px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin: 0 10px;
+  padding: 0 10px;
+  font-size: var(--text-md);
+  text-align: center;
+}
+
+/* Different styles */
+.slide-1 {
+  background: #eef1f8;
+  color: #16154e;
+}
+
+.slide-2 {
+  background: #02528d;
+}
+
+.slide-3 {
+  background: #210056;
+}
+
+.slide-4 {
+  background: #eaf6fb;
+  color: #018abe;
+}
+
+.slide-5 {
+  background: #2c96cb;
+}

@@ -4,6 +4,7 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 
 
+
 @Component({
   selector: 'app-home',
   imports: [],
@@ -12,12 +13,18 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 })
 export class HomeComponent {
 
+
+
     ngAfterViewInit(): void {
-    const swiper = new Swiper('.swiper', {
+    const swiper = new Swiper('.mySwiper', {
       
       modules: [Navigation, Pagination, Autoplay],
       // Optional parameters
       loop: true,
+      slidesPerView: 'auto',
+    spaceBetween: 20,
+    speed: 2000,
+    grabCursor: true,
       autoplay: {
         delay: 2500,
       },
