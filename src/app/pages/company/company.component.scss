@@ -1,4 +1,174 @@
 
+// global
+.text-white{
+  color: white;
+}
+
+
+// header
+
+
+.home-wrapper {
+  background: 
+    linear-gradient(to right, rgb(255, 255, 255),  rgba(255, 255, 255, 0.945),  rgba(255, 255, 255, 0.829), rgba(255, 255, 255, 0));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.left-col{
+  padding: 7rem 0;
+}
+
+.hero-content{
+  width: 552px;
+}
+
+.hero-content p{
+  width: 491px;
+}
+
+
+.hero-content .btn{
+  margin-top: 28px;
+}
+
+
+//why join us card
+.w-j-u-card{
+  background-color: white;
+  width: 348px;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.w-j-u-card .icon{
+  padding: .5rem 0;
+}
+.w-j-u-card .title{
+  padding: .2rem 0;
+}
+
+
+.caption{
+  margin: 0 auto;
+  width: 597px;
+}
+
+// top businesses
+
+.top-businesses{
+  margin: 0 auto;
+}
+.business{
+  padding: 1rem ;
+  border: 1px solid grey;
+  height: 107px;
+
+}
+
+.business img{
+  margin: .5rem auto;
+}
+
+
+// about company
+
+.section-title{
+  margin: 2rem;
+}
+
+
+.cards{
+  column-gap: 2rem;
+}
+
+.card{
+  width: 348px;
+  height: 334px;
+  border-radius: 24px;
+  padding: 39px 16px;
+  background: linear-gradient(to top, #055A9D, #30BAE5);
+  color: white;
+}
+
+
+
+// customer review
+.customer-review{
+  background-color: var(--nova-purple-10);
+  padding: 2rem 0;
+}
+
+.customer-review .cards{
+  justify-items: center;
+  margin: 3rem 0;
+}
+
+
+
+
+
+.top{
+  margin-left: 10rem;
+  margin-bottom: .5rem;
+  column-gap: .5rem;
+  left: 400px;
+}
+
+.bottom{
+  margin-right: 10rem;
+  column-gap: .5rem;
+  right: 400px;
+}
+
+
+.card{
+  background: linear-gradient(311deg, #0E0925 3.64%, #35228B 96.36%);
+  width: 347px;
+  height: auto;
+  border-radius: 12px;
+  padding: 16px;
+ 
+border: 1px solid #4E4186;
+}
+
+.card-2{
+  background: linear-gradient(270deg, #0E0925 0%, #032D4F 100%);
+  width: 539px !important;
+  height: fit-content;
+  margin-top: 3rem;
+}
+
+.card-2 p{
+  padding: .5rem 0;
+}
+
+.card-3{
+  background: linear-gradient(104deg, #0E0925 35.2%, #344216 99.82%);
+width: 483px !important;
+height: fit-content;
+}
+
+.card-4{
+  background: linear-gradient(107deg, #0E0925 33.87%, #047395 98.56%);
+  height: auto;
+}
+
+
+
+.customer-review .text p{
+  color: #F0F0F0;
+}
+
+.customer-review .card-footer p{
+  color:  #D1D1D1;
+  padding: 0 !important;
+}
+
+
+
+
 // footer
 .footer-gradient {
   background: linear-gradient(to top, #daedf6, #f5f5f5);
