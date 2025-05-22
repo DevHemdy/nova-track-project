@@ -1,22 +1,46 @@
 
 .header{
-   position: relative;
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
 }
 
-.header-wrapper{
+.logo{
+    margin: .5rem 0;
+}
+
+.header-nav{
     position: fixed;
+    width: 100%;
 }
 
 .nav{
-    margin: auto 0;
+    // margin: auto 0;
+    justify-content: space-between;
 }
 
+.header-menu{
+    margin: 1rem 0;
+}
 .menu-list{
     gap: 32px;
+}
+
+.btns{
+    justify-content: end;
+    margin: 1rem 0;
 }
 
 .button-secondary{
     border: none;
     background: none;
     color: black;
+}
+
+
+.scrolled {
+  background-color: #ffffffd3;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }

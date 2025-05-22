@@ -1,35 +1,38 @@
-<div class="container">
-  <div class="row header">
-    <div class="header-wrapper  d-flex ">
-          <!-- logo -->
-    <div class="col-xl-1">
-      <a routerLink="/">
-        <img src="img/logo/NovaTrack-Logo-1.png" alt="logo" />
-      </a>
-    </div>
+  <section class="header" [class.scrolled]="isScrolled"   >
+  <div class="container header-container px-0" >
+    <div class="nav d-flex">
+      <!-- logo -->
+      <div class="col-xl-2 logo">
+        <a routerLink="/">
+          <img src="img/logo/NovaTrack-Logo-1.png" alt="logo" />
+        </a>
+      </div>
 
-    <!-- menu list items -->
-    <div class="col-xl-5 nav">
-      <nav class="header-menu">
-        <ul class="menu-list d-flex justify-center">
-          <li class="menu-list-item">
-            <a routerLink="/services"> Services </a>
-          </li>
-          <li class="menu-list-item"><a routerLink="/projects">Projects</a></li>
-          <li class="menu-list-item"><a routerLink="/company">Company</a></li>
-          <li class="menu-list-item"><a routerLink="/tickets">Raise a ticket</a></li>
-        </ul>
-      </nav>
-    </div>
+      <!-- menu list items -->
+      <div class="col-xl-6 nav ">
+        <nav class="header-menu">
+          <ul class="menu-list d-flex justify-center">
+            <li class="menu-list-item">
+              <a routerLink="/services"> Services </a>
+            </li>
+            <li class="menu-list-item">
+              <a routerLink="/projects">Projects</a>
+            </li>
+            <li class="menu-list-item"><a routerLink="/company">Company</a></li>
+            <li class="menu-list-item">
+              <a routerLink="/tickets">Raise a ticket</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-    <!-- buttons -->
-    <div class="col-xl-6 nav d-flex">
-      <div class="header-buttons">
-        <a href="#" class="button-secondary">Contact Us</a>
-        <a href="#" class="button-primary">Login</a>
+      <!-- buttons -->
+      <div class="col-xl-3 nav d-flex btns">
+        <div class="header-buttons">
+          <a href="#" class="button-secondary">Contact Us</a>
+          <a href="#" class="button-primary">Login</a>
+        </div>
       </div>
     </div>
-    </div>
   </div>
-</div>
-
+</section>
