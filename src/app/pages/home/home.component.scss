@@ -362,7 +362,43 @@ li{
 }
 
 
+.text-md{
+  font-size: 25px !important;
+}
 
 
+.mt-30{
+  margin-top: 30px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
 
 //Service
+
+
+//image section 
+.rich-experience{
+  width: 100%;
+  background: #080516;
+}
+
+
+
+//Features 
+.position4{
+  position: relative;
+}
+
+.text-relative1{
+  position: absolute;
+  top: 22%;
+  left: 35%;
+}
+
+
+.btn-relative1{
+    position: absolute;
+  top: 30%;
+  left: 42%;
+}
