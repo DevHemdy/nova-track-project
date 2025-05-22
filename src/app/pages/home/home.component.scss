@@ -130,13 +130,20 @@ li{
 }
 
 .tmw{
-   max-width: 400px;
+   max-width: 435px;
 }
 
-.position{
+.position1{
   position: relative;
 }
 
+.position2{
+  position: relative;
+}
+
+.position3{
+  position: relative;
+}
 
 // +++++++ real-time +++++++++
 .real-time{
@@ -152,7 +159,24 @@ li{
 .service-map{
   position: absolute;
   top: 55%;
-  right: 80%
+  right: 60%
+}
+
+//Fuel Monitoring and Cost Optimization 
+.image-barchart2{
+  position: absolute;
+  right: 13%;
+  bottom: 8%;
+}
+
+.image-barchart3{
+  position: absolute;
+  right: 3%;
+  bottom: 4%;
+}
+
+.pt-15{
+  padding-top: 15px;
 }
 
 .text-night-1{
@@ -172,14 +196,16 @@ li{
 }
 
 
-//Fuel Monitoring and Cost Optimization 
-.image-barchart{
-  position: absolute;
-  right: 14%;
-  bottom: 3%;
+.management-cards li{
+  list-style: disc;
+  margin-left: 20px;
 }
 
 
+.d-flex{
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 // ++++++ geofencing ++++++++
 .geofencing{
@@ -219,7 +245,7 @@ li{
 }
 
 .integration-card-3 .card-image{
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .services .btn{
@@ -306,6 +332,17 @@ li{
   border-width: 1px;
   padding: 16px;
 }
+
+.card.management-card {
+  background-color: white;
+  width: 300px;
+  top: 154px;
+  left: 120px;
+  border-radius: 12px;
+  border-width: 1px;
+  padding: 16px;
+}
+
 
 .experience-btn {
   text-align: center;
