@@ -95,7 +95,6 @@ margin: 5rem auto;
   justify-content: space-evenly;
 }
 .cta-card{
-  background-color: white;
   width: 340px;
   height: 180px;
   border: .5px solid rgba(128, 128, 128, 0.356);
@@ -104,6 +103,9 @@ margin: 5rem auto;
   padding: 24px;
   gap: 3px;
 }
+
+
+
 
 
 
@@ -120,11 +122,20 @@ margin: 5rem auto;
 
 
 .left-col-content{
-  padding: 4rem 0;
   max-width: 490px;
 }
 
+li{
+   max-width: 380px;
+}
 
+.tmw{
+   max-width: 400px;
+}
+
+.position{
+  position: relative;
+}
 
 
 // +++++++ real-time +++++++++
@@ -132,11 +143,42 @@ margin: 5rem auto;
   padding: 5rem 0;
 }
 
+.video{
+  width: 572px;
+  height: 471px;
+  overflow: hidden;
+}
+
 .service-map{
   position: absolute;
-  top: 203%;
-  left: 40%;
+  top: 55%;
+  right: 80%
 }
+
+.text-night-1{
+  color: var(--night-01)
+}
+
+.text-night-4{
+  color: var(--night-04)
+}
+
+.text-blue-6{
+  color: var(--nova-cloudy-06)
+}
+
+.text-white{
+  color: white;
+}
+
+
+//Fuel Monitoring and Cost Optimization 
+.image-barchart{
+  position: absolute;
+  right: 14%;
+  bottom: 3%;
+}
+
 
 
 // ++++++ geofencing ++++++++
@@ -283,3 +325,7 @@ margin: 5rem auto;
 }
 
 
+
+
+
+//Service

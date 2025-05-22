@@ -10622,7 +10622,7 @@ div[data-slider]>input[type=range]::-ms-tooltip {
 }
 
 .text-white {
-  color: var(--color-white);
+  color: var(--color-white) ;
 }
 
 .text-black {
