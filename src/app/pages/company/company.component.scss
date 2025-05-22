@@ -34,17 +34,44 @@
 }
 
 
+// story
+.story-card{
+  justify-content: center;
+}
+
 // vision
-.vision-cards{
-  justify-items: center;
-  margin: 0;
+
+.v-m-cards{
+  padding: 5rem 0;
 }
-.vision-card{
+.v-m-card{
+  position: relative;
+  border-radius: 12px;
   width: 390px;
-  height: fit-content;
-  border-radius: 14px;
-  background-color: #c0c0c02d !important;
+  height: 519px;
+  margin-right: 2rem;
 }
+
+.m-card, .v-card{
+  background-color: rgb(228, 227, 227) !important;
+}
+
+.m-card .card-content, .v-card .card-content{
+  padding: 16px;
+}
+
+.m-card img{
+  position: absolute;
+  top: 8.3rem;
+}
+
+.v-card img{
+  position: absolute;
+  top: 12.3rem;
+}
+
+
+
 
 //why join us card
 .w-j-u-card{
