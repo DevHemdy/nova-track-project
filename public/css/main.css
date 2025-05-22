@@ -664,18 +664,21 @@ button:focus {
 }
 
 
-.button-primary, .botton-secondary:hover{
+.button-primary{
   padding: 9px 32px;
   border-radius: 40px;
-  background: var(--nova-cloudy-06);
+  background: var(--nova-cloudy-06) !important;
   color: #FFF;
   text-align: center;
   border: 2px solid var(--nova-cloudy-06) !important;
 
-  
-
 }
 
+.button-secondary:hover{
+  background-color: var(--nova-cloudy-06);
+  color: #FFF;
+  border: #FFF;
+}
 
 
 .button.-md {
