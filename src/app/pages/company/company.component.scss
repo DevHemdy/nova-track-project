@@ -43,6 +43,7 @@
 
 .v-m-cards{
   padding: 5rem 0;
+    justify-content: center;
 }
 .v-m-card{
   position: relative;
@@ -71,9 +72,55 @@
 }
 
 
+// core values
+.greenbg{
+  background-image: url(/assets/company/background/abstract-green-waves-4\ 1.png) ;
+  background-position: center;
+  background-size: cover;
+  font-style: italic;
+  padding: 5rem 0;
+}
+
+
+.core-values{
+  background-color: #fafafa;
+}
+
+.values{
+  position: relative;
+}
+
+.value-container{
+  position: absolute;
+  top: 20%;
+  left: 19%;
+  background-color: #fff;
+  width: fit-content;
+  width: 549px;
+  border-radius: 24px;
+}
+
+.value-list-item img{
+  width: 16px;
+}
+
+
+// career section
+.careers{
+  padding: 5rem;
+}
+.career-text{
+  width: 1231px;
+  margin: 0 auto;
+}
+
 
 
 //why join us card
+
+.why-join-us{
+  padding: 5rem 0;
+}
 .w-j-u-card{
   background-color: white;
   width: 348px;
