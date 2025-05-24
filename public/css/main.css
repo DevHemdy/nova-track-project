@@ -684,6 +684,12 @@ button:focus {
 
 }
 
+.button-tertiary:hover{
+  border-color: var(--nova-cloudy-06) !important;
+  background-color: var(--nova-cloudy-06) !important;
+  color: #FFF !important;
+}
+
 .button-primary:hover{
   background-color: #FFF !important;
   color: var(--nova-cloudy-06) !important;

@@ -48,6 +48,8 @@
 }
 
 hr{
+  height: 1px;
+  background-color: var(--nova-cloudy-06) !important;
   position: absolute;
   top: 2px;
   bottom: 0px;
@@ -341,4 +343,5 @@ hr{
 
 .footer .btn {
   margin: auto;
+  justify-content: center;
 }
