@@ -1,68 +1,140 @@
-
+.body {
+  background-color: #fff;
+}
 // hero
-.hero-section{
-    margin: 10rem auto 5rem auto;
+.hero-section {
+  margin: 0 auto 5rem auto;
+  padding-top: 10rem;
 }
 
 .btn {
-    margin-top: 1.5rem ;
+  margin-top: 1.5rem;
 }
 
-
-.service-row{
-    margin: 5rem 0 ;
+.service-row {
+  margin: 5rem 0;
 }
 
 // gps
-.gps .right-col video{
-    border-radius: 16px;
-    width: 572px;
+.gps .right-col video {
+  border-radius: 16px;
+  width: 572px;
+}
+
+// dashboard
+.row-1,
+.row-2 {
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.row-2-metrics {
+  // padding-top: 5rem;
+}
+.card-large {
+  width: 592px !important;
+  height: auto !important;
+}
+.card-container {
+  background-color: #f5f5f5;
+  width: 389px;
+  height: 599px !important;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.dashboard-header .title {
+  color: var(--Night-06, #2e2f30);
+}
+
+.description {
+  color: var(--Night-05, #4f5154);
+}
+
+.matrics-grid {
+  position: relative;
+}
+
+.speed,
+.brake {
+  position: absolute;
+}
+
+.speed {
+  top: 505%;
+  left: 28%;
+}
+
+.brake {
+  top: 525%;
+  left: 24%;
+}
+
+.d-board {
+  position: absolute;
+  top: 623%;
+  left: 31%;
+}
+
+.safety-score {
+  position: absolute;
+  top: 600%;
+  left: 19%;
+}
+
+.text-20 {
+  font-size: 24px !important;
+}
+
+.cards .item {
+  color: var(--Night-05, #4f5154);
+  list-style-type: disc;
+  margin-left: 1rem;
+  font-size: 16px;
+  line-height: 171.8%;
 }
 
 // features
 
-.features .section-title{
-    margin: 2rem 0;
+
+.feature-section{
+  background-color: #F5F5F5 !important;
+}
+.features .section-title {
+  margin: 2rem 0;
 }
 
-.features .section-title h2{
-    width: 650px;
-    margin: 0 auto 2rem ;
+.features .section-title h2 {
+  width: 650px;
+  margin: 0 auto 2rem;
 }
-.feature-cards{
-      display: flex;
-      justify-content: space-around;
-      row-gap: 1rem;
-      margin-top: 2rem;
-}
-
-.features .card{
-    background-color: white;
-    border-radius: 12px;
-    width: 287px;
-    margin: 16px 0;
-    padding: 16px;
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  row-gap: 1rem;
+  margin-top: 2rem;
 }
 
-
-.service-list-item span{
-    // display: flex;
-    gap: gap 10rem;
-    width: 359px;
+.features .card {
+  background-color: white;
+  border-radius: 12px;
+  width: 287px;
+  margin: 16px 0;
+  padding: 16px;
 }
 
+.service-list-item span {
+  // display: flex;
+  gap: gap 10rem;
+  width: 359px;
+}
 
 // Fuel monitoring
-.image-barchart{
+.image-barchart {
   position: absolute;
   right: 14%;
   bottom: 3%;
 }
-
-
-
-
-
 
 // footer
 .footer-gradient {
@@ -101,5 +173,3 @@
 .footer .btn {
   margin: auto;
 }
-
-
