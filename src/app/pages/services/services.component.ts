@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-services',
@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
   templateUrl: './services.component.html',
   styleUrl: './services.component.scss'
 })
-export class ServicesComponent {
+export class ServicesComponent implements OnInit {
+
 
 
   advanceTool: any = [
@@ -86,5 +87,11 @@ export class ServicesComponent {
     
 
   ]
+
+    ngOnInit(): void {
+    window.scrollTo(0,0 )
+  }
+
+  
 
 }

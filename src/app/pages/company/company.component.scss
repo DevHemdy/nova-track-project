@@ -1,51 +1,51 @@
-
 // global
-.text-white{
+.text-white {
   color: white;
 }
 
-
 // header
 
-
 .home-wrapper {
-  background: 
-    linear-gradient(to right, rgb(255, 255, 255),  rgba(255, 255, 255, 0.945),  rgba(255, 255, 255, 0.829), rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.945),
+    rgba(255, 255, 255, 0.829),
+    rgba(255, 255, 255, 0)
+  );
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
 }
 
-.left-col{
+.left-col {
   padding: 7rem 0;
 }
 
-.hero-content{
+.hero-content {
   width: 552px;
 }
 
-.hero-content p{
+.hero-content p {
   width: 491px;
 }
 
-
-.hero-content .btn{
+.hero-content .btn {
   margin-top: 28px;
 }
 
-
 // story
-.story-card{
+.story-card {
   justify-content: center;
 }
 
 // vision
 
-.v-m-cards{
+.v-m-cards {
   padding: 5rem 0;
-    justify-content: center;
+  justify-content: center;
 }
-.v-m-card{
+.v-m-card {
   position: relative;
   border-radius: 12px;
   width: 390px;
@@ -53,207 +53,214 @@
   margin-right: 2rem;
 }
 
-.m-card, .v-card{
+.m-card,
+.v-card {
   background-color: rgb(228, 227, 227) !important;
 }
 
-.m-card .card-content, .v-card .card-content{
+.m-card .card-content,
+.v-card .card-content {
   padding: 16px;
 }
 
-.m-card img{
+.m-card img {
   position: absolute;
   top: 8.3rem;
 }
 
-.v-card img{
+.v-card img {
   position: absolute;
   top: 12.3rem;
 }
 
-
 // core values
-.greenbg{
-  background-image: url(/assets/company/background/abstract-green-waves-4\ 1.png) ;
+.greenbg {
+  background-image: url(/assets/company/background/abstract-green-waves-4\ 1.png);
   background-position: center;
   background-size: cover;
   font-style: italic;
   padding: 5rem 0;
 }
 
-
-.core-values{
+.core-values {
   background-color: #fafafa;
 }
 
-.values{
+.values {
   position: relative;
 }
 
-.value-container{
+.value-container {
   position: absolute;
   top: 20%;
-  left:27%;
+  left: 27%;
   background-color: #fff;
   width: fit-content;
   width: 549px;
   border-radius: 24px;
 }
 
-.value-list-item img{
+.value-list-item img {
   width: 16px;
 }
 
-
 // career section
-.careers{
-  padding: 5rem;
+.careers {
+  padding-top: 5rem;
 }
-.career-text{
+.career-text {
   width: 1231px;
   margin: 0 auto;
 }
 
+.career-lunch{
+  padding-top: 5rem;
+}
 
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.feature-card {
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+  background: #fafafa;
+}
+
+.feature-icon {
+  align-content: center;
+  padding: 0 .5rem ;
+}
+
+.feature-content{
+  align-content: center;
+}
 
 //why join us card
 
-.why-join-us{
+.why-join-us {
   padding: 5rem 0;
 }
-.w-j-u-card{
+.w-j-u-card {
   background-color: white;
   width: 348px;
   border-radius: 12px;
   padding: 16px;
 }
 
-.w-j-u-card .icon{
-  padding: .5rem 0;
+.w-j-u-card .icon {
+  padding: 0.5rem 0;
 }
-.w-j-u-card .title{
-  padding: .2rem 0;
+.w-j-u-card .title {
+  padding: 0.2rem 0;
 }
 
-
-.caption{
+.caption {
   margin: 0 auto;
   width: 597px;
 }
 
 // top businesses
 
-.top-businesses{
+.top-businesses {
   margin: 0 auto;
 }
-.business{
-  padding: 1rem ;
+.business {
+  padding: 1rem;
   border: 1px solid grey;
   height: 107px;
-
 }
 
-.business img{
-  margin: .5rem auto;
+.business img {
+  margin: 0.5rem auto;
 }
-
 
 // about company
 
-.section-title{
+.section-title {
   margin: 2rem;
 }
 
-
-.cards{
+.cards {
   column-gap: 2rem;
 }
 
-.card{
+.card {
   width: 348px;
   height: 334px;
   border-radius: 24px;
   padding: 39px 16px;
-  background: linear-gradient(to top, #055A9D, #30BAE5);
+  background: linear-gradient(to top, #055a9d, #30bae5);
   color: white;
 }
 
-
-
 // customer review
-.customer-review{
+.customer-review {
   background-color: var(--nova-purple-10);
   padding: 2rem 0;
 }
 
-.customer-review .cards{
+.customer-review .cards {
   justify-items: center;
   margin: 3rem 0;
 }
 
-
-
-
-
-.top{
+.top {
   margin-left: 10rem;
-  margin-bottom: .5rem;
-  column-gap: .5rem;
+  margin-bottom: 0.5rem;
+  column-gap: 0.5rem;
   left: 400px;
 }
 
-.bottom{
+.bottom {
   margin-right: 10rem;
-  column-gap: .5rem;
+  column-gap: 0.5rem;
   right: 400px;
 }
 
-
-.card{
-  background: linear-gradient(311deg, #0E0925 3.64%, #35228B 96.36%);
+.card {
+  background: linear-gradient(311deg, #0e0925 3.64%, #35228b 96.36%);
   width: 347px;
   height: auto;
   border-radius: 12px;
   padding: 16px;
- 
-border: 1px solid #4E4186;
+
+  border: 1px solid #4e4186;
 }
 
-.card-2{
-  background: linear-gradient(270deg, #0E0925 0%, #032D4F 100%);
+.card-2 {
+  background: linear-gradient(270deg, #0e0925 0%, #032d4f 100%);
   width: 539px !important;
   height: fit-content;
   margin-top: 3rem;
 }
 
-.card-2 p{
-  padding: .5rem 0;
+.card-2 p {
+  padding: 0.5rem 0;
 }
 
-.card-3{
-  background: linear-gradient(104deg, #0E0925 35.2%, #344216 99.82%);
-width: 483px !important;
-height: fit-content;
+.card-3 {
+  background: linear-gradient(104deg, #0e0925 35.2%, #344216 99.82%);
+  width: 483px !important;
+  height: fit-content;
 }
 
-.card-4{
-  background: linear-gradient(107deg, #0E0925 33.87%, #047395 98.56%);
+.card-4 {
+  background: linear-gradient(107deg, #0e0925 33.87%, #047395 98.56%);
   height: auto;
 }
 
-
-
-.customer-review .text p{
-  color: #F0F0F0;
+.customer-review .text p {
+  color: #f0f0f0;
 }
 
-.customer-review .card-footer p{
-  color:  #D1D1D1;
+.customer-review .card-footer p {
+  color: #d1d1d1;
   padding: 0 !important;
 }
-
-
-
 
 // footer
 .footer-gradient {
@@ -292,5 +299,3 @@ height: fit-content;
 .footer .btn {
   margin: auto;
 }
-
-
