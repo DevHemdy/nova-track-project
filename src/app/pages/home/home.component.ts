@@ -50,7 +50,7 @@ export class HomeComponent {
               // when window width is >= 640px
         940: {
           slidesPerView: 4,
-          spaceBetween: 40
+          spaceBetween: 20
         }
         
       },
