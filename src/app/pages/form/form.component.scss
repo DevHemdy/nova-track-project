@@ -329,3 +329,15 @@ body {
     transform: translateY(-50%) rotate(360deg);
   }
 }
+
+@media only screen and (min-width: 275px) and (max-width: 1366px) {
+
+  .form{
+    justify-items: center;
+    
+  }
+  .form-container{
+    width: 100%;
+    left: 0;
+  }
+}

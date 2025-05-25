@@ -104,7 +104,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1rem;
   margin-top: 2rem;
 }
 
@@ -117,6 +117,10 @@
   line-height: 141.8%;
 }
 
+.challenge-text{
+  font-size: 18px;
+}
+
 .solution-description {
   width: 405px;
 }
@@ -124,7 +128,7 @@
 .solution-features {
   // display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  // gap: 1rem;
+  gap: 1rem;
   justify-content: space-between;
 }
 
@@ -132,7 +136,7 @@
   background-color: #dddada;
   padding: 12px;
   border-radius: 12px;
-  width: 288px;
+  // width: 288px;
 }
 
 .feature-title {
@@ -144,10 +148,13 @@
   font-size: 12px;
 }
 .feature-list-item {
+  color: var(--Night-05, #4F5154);
   display: flex;
-  // align-items: center;
-  // font-size: 12px;
-  gap: 1rem;
+  font-size: 14px;
+  margin: 10px 0;
+  gap: .5rem;
+  
+  line-height: 131.8%;
 }
 
 .feature-list-item img {
@@ -156,8 +163,6 @@
 
 .feature-list-item p {
   margin: 0;
-  font-size: 12px;
-  line-height: 131.8%;
 }
 
 // results
@@ -215,6 +220,7 @@
 
 .footer-text-container {
   margin: 0 auto;
+      z-index: 5;
 }
 
 .footer {
@@ -235,9 +241,59 @@
   color: var(--nova-cloudy-06) !important;
 }
 
-@media (max-width: 575px) {
-  .overview-container, .cta-container {
+
+
+// phones, tablets and desktop
+@media only screen and (min-width: 275px) and (max-width: 1366px) {
+  .hero{
+    padding: 0%;
+  }
+
+  .hero-text-container{
+    width: 100%;
+    padding: 10rem  1rem 4rem;
+  }
+
+  .feature .section-content{
+    padding: 0rem 2rem;
+  }
+
+  .btn{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+
+  .case-study-content{
+    padding: 0 1rem;
+  }
+
+  
+
+  .header-content, .challenge-cards, .solution-features{
+    flex-direction: column;
+  }
+
+  .header-content .title{
     width: 100% !important;
   }
+
+  .feature .project-title{
+    width: 100% !important;
+  }
+
+      // sub footer
+
+  .footer .btn{
+    flex-direction: column;
+  }
+  .footer-text-container, .text-bdy{
+    width: 100% !important; 
+    padding: 0 1rem;
+  }
+
+
+
+
 
 }

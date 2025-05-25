@@ -56,19 +56,26 @@
   padding: 2rem 0;
 }
 
-.row-2-metrics {
-  // padding-top: 5rem;
-}
 .card-large {
   width: 592px !important;
   height: auto !important;
 }
 .card-container {
+  position: relative;
   background-color: #f5f5f5;
   width: 389px;
   height: 599px !important;
   border-radius: 24px;
   padding: 24px;
+}
+
+.metric-card{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  top: 50%;
+  
 }
 
 .dashboard-header .title {
@@ -81,42 +88,39 @@
   // width: 544px !important;
 }
 
-.matrics-grid {
-  position: relative;
-}
 
-.speed,
-.brake {
-  position: absolute;
-}
 
 .speed {
-  top: 511%;
-  left: 28%;
+  top: 50%;
+  left: 60%;
 }
 
 .brake {
-  top: 530%;
-  left: 24%;
-}
-
-.b-dashboard {
-  position: absolute;
-  top: 616%;
-  left: 19%;
-}
-
-.d-board {
-  position: absolute;
-  top: 623%;
-  left: 31%;
+  top: 72%;
+  left: 9.5rem;
 }
 
 .safety-score {
-  position: absolute;
-  top: 504%;
-  left: 17%;
+  // position: absolute;
+  top: 39%;
+  left: 6%;
 }
+
+
+
+.matrics-grid {
+  position: absolute;
+}
+
+.b-dashboard {
+  left: 2rem;
+}
+
+.d-board {
+  top: 22rem;
+  left: 15rem;
+}
+
 
 .text-20 {
   font-size: 24px !important;
@@ -131,26 +135,26 @@
 }
 
 .support-grid {
-  padding-top: 2rem;
+  width: 100%;
 }
 
 .support-image-1 {
   position: absolute;
-  top: 622%;
-  left: 53%;
+  top: 20rem;
+  left: 2rem;
 }
 
 .support-image-2 {
   position: absolute;
-  top: 613%;
-  left: 60%;
+  top: 18rem;
+  left: 10rem;
   // width: 8rem;
 }
 
 .support-image-3 {
   position: absolute;
-  top: 618%;
-  left: 69%;
+  top: 20rem;
+  left: 59%;
 }
 // features
 
@@ -233,4 +237,39 @@
   // margin: auto;
   justify-content: center;
   gap: 1rem;
+}
+
+
+// phone, tabs and desktop
+@media only screen and (min-width: 275px) and (max-width: 1366px) {
+
+
+.hero-section{
+  flex-direction: column !important;
+}
+
+  .cards{
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .card-container{
+   width: 100%;
+  }
+
+  .card-large{
+    width: 100% !important;
+  }
+
+
+  // sub footer
+
+  .footer .btn{
+    flex-direction: column;
+  }
+  .footer-text-container, .text-bdy{
+    width: 100% !important; 
+    padding: 0 1rem;
+  }
 }

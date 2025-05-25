@@ -69,7 +69,7 @@
 // ++++++++++++ trusted businesses ++++++++++++++++++
 
 .businesses{
-  background-color: rgba(240, 239, 239, 0.87);
+  background-color: rgba(255, 255, 255, 0.034);
   padding: 6rem 0;
 }
 
@@ -96,7 +96,6 @@ margin: 5rem auto;
 }
 .cta-card{
   width: 340px;
-  height: 180px;
   border: .5px solid rgba(128, 128, 128, 0.356);
   border-radius: 25px;
   text-align: center;
@@ -115,8 +114,24 @@ margin: 5rem auto;
   background-color: rgba(223, 222, 222, 0.507);
   padding: 5rem 0;
 }
+
+.service-list{
+  padding-bottom: 1rem;
+}
 .service-list-item{
-  gap: 2rem;
+  display: flex;
+  gap: 1rem;
+  width: fit-content;
+}
+
+.service-list-item img{
+  width: 1.5rem;
+  height: 2rem;
+}
+
+.service-list-item p{
+  margin: 0;
+  line-height: 151%;
 }
 
 
@@ -458,8 +473,8 @@ li{
   background: #2c96cb;
 }
 
-// phone
-@media (max-width: 575px) {
+// phone, tabs and desktop
+@media only screen and (min-width: 275px) and (max-width: 1366px){
   .overview-container, .cta-container {
     width: 100% !important;
   }
@@ -505,23 +520,3 @@ li{
 }
 
 
-// tablets
-
-// @media (min-width: 768px) and (max-width: 1024px) {
-//   .overview-container, .cta-container {
-//     width: 100% !important;
-//   }
-
-//   .cta{
-//     width: 100%;
-//     justify-content: space-around;
-//   }
-
-//   .cta-cards{
-//     display: flex;
-//     justify-content: center;
-//     gap: 2rem;
-//     width: auto;
-//   }
-
-// }
