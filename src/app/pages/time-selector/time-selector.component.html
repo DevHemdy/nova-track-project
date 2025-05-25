@@ -1,0 +1,10 @@
+<div class="time-slots">
+  <button
+    *ngFor="let time of times"
+    (click)="selectTime(time)"
+    [class.active]="value === time"
+    type="button"
+  >
+    {{ time }}
+  </button>
+</div>

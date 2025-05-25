@@ -95,7 +95,7 @@ margin: 5rem auto;
   justify-content: space-evenly;
 }
 .cta-card{
-  width: 340px;
+  width: 360px;
   height: 180px;
   border: .5px solid rgba(128, 128, 128, 0.356);
   border-radius: 25px;
@@ -437,25 +437,41 @@ li{
 
 /* Different styles */
 .slide-1 {
-  background: #eef1f8;
   color: #16154e;
+    background: url('/assets/home/Frame1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f0f5f9;
 }
 
 .slide-2 {
-  background: #02528d;
+    background: url('/assets/home/Frame2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #054b83;
 }
 
 .slide-3 {
   background: #210056;
+    background-image: url('/assets/home/Frame3.png');
+  background-position: center;
+  background-repeat: repeat;
 }
 
 .slide-4 {
-  background: #eaf6fb;
+
+    background: url('/assets/home/Frame4.png');
+  background-color: #edf3f7;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #018abe;
 }
 
 .slide-5 {
-  background: #2c96cb;
+    background: url('/assets/home/Frame5.png');
+  background-color: #16154e;
+  background-position:center;
+  background-repeat: no-repeat;
 }
 
 // phone

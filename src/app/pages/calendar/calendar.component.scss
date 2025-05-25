@@ -1,0 +1,29 @@
+.calendar {
+  width: 300px;
+  font-family: Arial, sans-serif;
+}
+.calendar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+}
+td.active:hover {
+  background-color: #eee;
+}
+td.active.selected {
+  background-color: #007bff;
+  color: white;
+}
+td:not(.active) {
+  background-color: #f9f9f9;
+}

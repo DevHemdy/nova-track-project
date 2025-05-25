@@ -1,0 +1,26 @@
+<div class="calendar">
+  <h3>Select a Date and Time</h3>
+  <div class="calendar-nav">
+    <button (click)="previousMonth()">&lt;</button>
+    <span>{{ monthName }} {{ currentYear }}</span>
+    <button (click)="nextMonth()">&gt;</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th *ngFor="let day of weekDays">{{ day }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let week of calendarDays">
+        <td *ngFor="let day of week"
+            [class.active]="day"
+            [class.selected]="isSelected(day)"
+            (click)="selectDate(day)">
+          {{ day }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="selected-date">Selected date: {{ selectedDateString }}</div>
+</div>
