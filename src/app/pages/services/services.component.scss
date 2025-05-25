@@ -3,8 +3,32 @@
 }
 // hero
 .hero-section {
+  position: relative;
   margin: 0 auto 5rem auto;
   padding-top: 10rem;
+      // gap: 16rem;
+}
+
+
+.hero-image-container{
+  text-align: end;
+}
+.hero-image-container .img1{
+  position: absolute;
+  top: 8rem;
+  left: 54rem;
+}
+.hero-image-container .img2{
+  position: absolute;
+  top: 7rem;
+  left: 40rem;
+}
+.hero-image-container .img3{
+  position: absolute;
+  top: 28rem;
+  left: 40rem;
+  border-radius: 16px;
+  box-shadow: 20px 44px 156px -39px grey;
 }
 
 .btn {
@@ -13,6 +37,10 @@
 
 .service-row {
   margin: 5rem 0;
+}
+
+.hero-right-image{
+  justify-content: end;
 }
 
 // gps
@@ -186,7 +214,9 @@
 }
 
 .footer-text-container {
+  background-color: transparent;
   margin: 0 auto;
+  z-index: 5;
 }
 
 .footer {
