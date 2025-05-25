@@ -6,7 +6,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { TicketsComponent } from './pages/tickets/tickets.component';
 import { FormComponent } from './pages/form/form.component';
 import { Form2Component } from './pages/form-2/form-2.component';
-import { CalendarComponent } from './pages/calendar/calendar.component';
+import { FormSummaryComponent } from './pages/form-summary/form-summary.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -16,6 +16,6 @@ export const routes: Routes = [
     {path: 'tickets', component: TicketsComponent},
     {path: 'form', component: FormComponent},
     {path: 'form-2', component: Form2Component},
-    {path: 'date', component: CalendarComponent}
+    {path: 'form-summary', component: FormSummaryComponent}
 
 ];
