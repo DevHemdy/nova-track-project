@@ -249,6 +249,14 @@ hr{
   right: 400px;
 }
 
+.icon{
+  width: 3rem;
+}
+
+.icon img{
+  width: 100%;
+}
+
 .card {
   background: linear-gradient(311deg, #0e0925 3.64%, #35228b 96.36%);
   width: 347px;
@@ -342,6 +350,9 @@ hr{
 }
 
 .footer .btn {
-  margin: auto;
+  // margin: auto;
   justify-content: center;
+  gap: 1rem;
+  border-color: var(--nova-cloudy-06) !important;
+  color: var(--nova-cloudy-06) !important;
 }

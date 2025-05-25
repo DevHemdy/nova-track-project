@@ -45,10 +45,12 @@
 
 .dashboard-header .title {
   color: var(--Night-06, #2e2f30);
+  // width: 544px;
 }
 
 .description {
   color: var(--Night-05, #4f5154);
+  // width: 544px !important;
 }
 
 .matrics-grid {
@@ -61,13 +63,19 @@
 }
 
 .speed {
-  top: 505%;
+  top: 511%;
   left: 28%;
 }
 
 .brake {
-  top: 525%;
+  top: 530%;
   left: 24%;
+}
+
+.b-dashboard {
+  position: absolute;
+  top: 616%;
+  left: 19%;
 }
 
 .d-board {
@@ -78,8 +86,8 @@
 
 .safety-score {
   position: absolute;
-  top: 600%;
-  left: 19%;
+  top: 504%;
+  left: 17%;
 }
 
 .text-20 {
@@ -94,11 +102,32 @@
   line-height: 171.8%;
 }
 
+.support-grid {
+  padding-top: 2rem;
+}
+
+.support-image-1 {
+  position: absolute;
+  top: 622%;
+  left: 53%;
+}
+
+.support-image-2 {
+  position: absolute;
+  top: 613%;
+  left: 60%;
+  // width: 8rem;
+}
+
+.support-image-3 {
+  position: absolute;
+  top: 618%;
+  left: 69%;
+}
 // features
 
-
-.feature-section{
-  background-color: #F5F5F5 !important;
+.feature-section {
+  background-color: #f5f5f5 !important;
 }
 .features .section-title {
   margin: 2rem 0;
@@ -171,5 +200,7 @@
 }
 
 .footer .btn {
-  margin: auto;
+  // margin: auto;
+  justify-content: center;
+  gap: 1rem;
 }

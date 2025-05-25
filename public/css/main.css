@@ -663,6 +663,13 @@ button:focus {
   
   padding: 9px 32px;
 }
+.button-tertiary2{
+  background-color: transparent !important;
+  color: var(--nova-cloudy-06)!important;
+  border: 1px solid var(--nova-cloudy-06) !important;
+  border-radius: 40px;
+  padding: 9px 32px;
+}
 
 .button-secondary{
   padding: 9px 32px;
@@ -688,6 +695,13 @@ button:focus {
   border-color: var(--nova-cloudy-06) !important;
   background-color: var(--nova-cloudy-06) !important;
   color: #FFF !important;
+}
+
+.button-tertiary2:hover{
+  background-color: var(--nova-cloudy-10) !important;
+  color: #fff !important;
+  border: 1px solid var(--nova-cloudy-16) !important;
+
 }
 
 .button-primary:hover{

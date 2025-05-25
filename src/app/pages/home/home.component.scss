@@ -346,6 +346,7 @@ li{
 
 .experience-btn {
   text-align: center;
+  gap: 1rem;
 }
 
 
@@ -456,3 +457,71 @@ li{
 .slide-5 {
   background: #2c96cb;
 }
+
+// phone
+@media (max-width: 575px) {
+  .overview-container, .cta-container {
+    width: 100% !important;
+  }
+
+  .cta{
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .cta-cards{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: auto;
+  }
+
+  .shape{
+    display: none;
+  }
+
+  .left-col{
+    padding: 5rem 0;
+  }
+
+  .video{
+    width: 100%;
+  }
+
+  video{
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .service-map{
+    top: 4rem;
+    left: 2rem;
+    width: 150px;
+  }
+
+  .right-col{
+    width: 100;
+  }
+}
+
+
+// tablets
+
+// @media (min-width: 768px) and (max-width: 1024px) {
+//   .overview-container, .cta-container {
+//     width: 100% !important;
+//   }
+
+//   .cta{
+//     width: 100%;
+//     justify-content: space-around;
+//   }
+
+//   .cta-cards{
+//     display: flex;
+//     justify-content: center;
+//     gap: 2rem;
+//     width: auto;
+//   }
+
+// }
