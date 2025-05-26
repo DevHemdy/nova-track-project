@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import Swiper from 'swiper';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
@@ -13,20 +13,20 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit{
 
 
 
-    ngAfterViewInit(): void {
+  ngAfterViewInit(): void {
     const swiper = new Swiper('.mySwiper', {
-      
+
       modules: [Navigation, Pagination, Autoplay],
       // Optional parameters
       loop: true,
       slidesPerView: 'auto',
-    spaceBetween: 20,
-    speed: 2000,
-    grabCursor: true,
+      spaceBetween: 20,
+      speed: 2000,
+      grabCursor: true,
       autoplay: {
         delay: 2500,
       },
@@ -47,36 +47,37 @@ export class HomeComponent {
           slidesPerView: 3,
           spaceBetween: 40
         },
-              // when window width is >= 640px
+        // when window width is >= 640px
         940: {
           slidesPerView: 4,
           spaceBetween: 20
         }
-        
+
       },
 
-      
-    
+
+
       // If we need pagination
       pagination: {
         el: '.swiper-pagination',
       },
-    
+
       // Navigation arrows
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-    
+
       // And if we need scrollbar
       scrollbar: {
         el: '.swiper-scrollbar',
       },
     });
-
-
-
   }
 
 
+    ngOnInit(): void {
+    window.scrollTo(0,0)
+    
+  }
 }

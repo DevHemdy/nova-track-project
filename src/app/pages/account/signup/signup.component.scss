@@ -1,0 +1,137 @@
+a:hover{
+    color: #394e03;
+}
+
+.link{
+    color: #272751;
+    text-decoration: underline;
+}
+
+
+.bg{
+    background-color: #f2f6f9;
+}
+
+.text-green{
+    color: #394e03;
+}
+
+.form-input input:focus{
+    border: 1px solid var(--color-border) !important;
+}
+
+.reset{
+    color: var(--nova-lemon-08);
+}
+
+.form-input textarea,
+.form-input input {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 0 15px;
+  padding-top: 25px;
+  min-height: 70px;
+  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  color: white;
+}
+
+
+.form-checkbox {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+}
+
+.form-checkbox label {
+  margin: 0;
+  margin-left: 9px;
+  font-size: 14px;
+}
+
+.form-checkbox__mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--nova-cloudy-06);
+  border-radius: 4px;
+}
+
+.form-checkbox__icon {
+  display: none;
+  position: absolute;
+  font-size: 8px;
+  color: white;
+}
+
+.form-checkbox input {
+  cursor: pointer;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.form-checkbox input:checked~.form-checkbox__mark {
+  background-color: var(--color-blue-1);
+  border-color: var(--color-blue-1);
+}
+
+.button.-red-1:hover {
+  border-color:#4E0903;;
+  background-color:#4E0903 !important;
+  color: white !important;
+}
+
+.button.-outline-red-1 {
+  border-color: #4E0903;;
+}
+
+.button.-outline-red-1:hover {
+  background-color: #4E0903;;
+  border-color: transparent;
+  color: white !important;
+}
+
+.text-red-1 {
+  color:#4E0903;;;
+}
+
+.form-checkbox input:checked~.form-checkbox__mark {
+  background-color: var(--nova-cloudy-06);
+  border-color: var(--nova-cloudy-06);
+}
+
+.form-checkbox input:checked~.form-checkbox__mark .form-checkbox__icon {
+  display: block;
+}
+
+.form-checkbox:hover input~.form-checkbox__mark {
+  background-color: var(--nova-cloudy-06);
+}
+
+.form-checkbox:hover input:checked~.form-checkbox__mark {
+  background-color: var(--nova-cloudy-06);
+}
+

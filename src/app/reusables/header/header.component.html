@@ -41,19 +41,19 @@
               <div class="menu js-navList">
                 <ul class="menu__nav text-black -is-active">
                   <li>
-                    <a routerLink="" class="text-18"> Home </a>
+                    <a routerLink="" class="text-18" (click)="closeMobileMenu()"> Home </a>
                   </li>
                   <li>
-                    <a routerLink="/services" class="text-18"> Services </a>
+                    <a routerLink="/services" class="text-18" (click)="closeMobileMenu()"> Services </a>
                   </li>
                   <li>
-                    <a routerLink="/projects" class="text-18"> Projects </a>
+                    <a routerLink="/projects" class="text-18" (click)="closeMobileMenu()"> Projects </a>
                   </li>
                   <li>
-                    <a routerLink="/company" class="text-18">Company</a>
+                    <a routerLink="/company" class="text-18" (click)="closeMobileMenu()">Company</a>
                   </li>
                   <li>
-                    <a routerLink="/tickets" class="text-18">Raise a ticket</a>
+                    <a routerLink="/tickets" class="text-18" (click)="closeMobileMenu()">Raise a ticket</a>
                   </li>
                 </ul>
               </div>
@@ -76,7 +76,7 @@
               >Contact Us</a
             >
             <a
-              routerLink="/signup"
+              routerLink="/login"
               class="button button-primary px-30 fw-400 text-14 border-dark-4 -blue-1 h-50 text-dark-4"
               >Login</a
             >
@@ -88,7 +88,7 @@
             data-x-toggle="text-white"
           >
             <div class="user">
-              <a href="#" class="d-flex items-center text-inherit text-22"
+              <a routerLink="/login" class="d-flex items-center text-inherit text-22"
                 ><i class="fa fa-user" aria-hidden="true"></i>
               </a>
             </div>

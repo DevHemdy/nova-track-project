@@ -10704,7 +10704,7 @@ div[data-slider]>input[type=range]::-ms-tooltip {
 }
 
 .text-blue-1 {
-  color: var(--color-blue-1);
+  color: var(--nova-cloudy-06);
 }
 
 .text-blue-2 {
@@ -11174,7 +11174,7 @@ div[data-slider]>input[type=range]::-ms-tooltip {
 }
 
 .shadow-1 {
-  box-shadow: 0px 20px 40px 0px #05103612;
+  box-shadow: 0px 40px 80px 80px #05103612;
 }
 
 .shadow-2 {

@@ -17,4 +17,10 @@ export class HeaderComponent {
     this.isScrolled = window.pageYOffset > 50;
   }
 
+closeMobileMenu() {
+  const mobileMenu = document.querySelector('[data-x="mobile-menu"]');
+  mobileMenu?.classList.remove('is-menu-active'); // or whatever class your system uses to show the menu
+  document.documentElement.classList.remove('is-menu-opened');
+}
+  
 }
