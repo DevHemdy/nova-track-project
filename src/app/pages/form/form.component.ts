@@ -22,7 +22,7 @@ formData: FormGroup = new FormGroup({
 });
 
   constructor(private alert: AlertService){}
-  
+
 onSubmit() {
   if (this.formData.invalid) {
     this.alert.showError('Missing Field');
@@ -36,12 +36,6 @@ onSubmit() {
   // Proceed to next step
   window.location.href = '/form-2';
 }
-
-
-
-
-
-  
 
 
 

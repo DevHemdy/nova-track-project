@@ -41,44 +41,48 @@
             position: relative;
         }
 
-        .close-button {
-            position: absolute;
-            top: 1.5rem;
-            right: 1.5rem;
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            color: #718096;
-            cursor: pointer;
-            width: 32px;
-            height: 32px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 6px;
-            transition: all 0.2s ease;
-        }
+.close-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #718096;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
 
-        .close-button:hover {
-            background: #f7fafc;
-            color: #2d3748;
-        }
+.close-button:hover {
+  background: #f7fafc;
+  color: #2d3748;
+}
 
-        .step-indicator {
-            position: absolute;
-            top: 1.5rem;
-            right: 4rem;
-            font-size: 0.875rem;
-            color: #2b6cb8;
-            font-weight: 500;
-        }
+.step-indicator {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  font-size: 0.875rem;
+  color:black;
+  font-weight: 500;
+}
 
-        .form-title {
-            font-size: 1.75rem;
-            font-weight: 700;
-            color: #2d3748;
-        }
+.text-blue-1{
+  color:#1279df;
+}
 
+.form-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
 
 .booking-section {
   display: flex;

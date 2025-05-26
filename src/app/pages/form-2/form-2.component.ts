@@ -26,7 +26,6 @@ export class Form2Component {
 
   onSubmit() {
   if (this.formDate.invalid) {
-    console.log('Missing field:', this.formDate.value);
     this.alert.showError('Missing Field');
     setTimeout(() => {
     }, 3000);
@@ -58,6 +57,8 @@ export class Form2Component {
   }, 3000);
 
 }
+
+
 
 }
 
