@@ -21,12 +21,13 @@ formData: FormGroup = new FormGroup({
   fleetSize: new FormControl('', Validators.required)
 });
 
+  constructor(private alert: AlertService){}
+  
 onSubmit() {
   if (this.formData.invalid) {
-    console.log('Missing field:', this.formData.value);
     this.alert.showError('Missing Field');
     setTimeout(() => {
-    }, 3000);
+    }, 2000);
     return;
   }
   const formDataValue = this.formData.value;
@@ -37,9 +38,7 @@ onSubmit() {
 }
 
 
-  constructor(private alert: AlertService){
 
-  }
 
 
   

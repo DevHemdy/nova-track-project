@@ -1,11 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background: rgba(0, 0, 0, 0.5);
   min-height: 100vh;
   display: flex;
@@ -26,21 +20,22 @@ body {
 }
 
 .form-container {
-  background: white;
-  border-radius: 12px;
-  width: 100%;
-  left: 40%;
-  max-width: 517px;
-  position: relative;
-  z-index: 10;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
-  animation: slideUp 0.4s ease-out;
-  overflow: hidden;
+  background-color: white;
+  max-width: 500px;
   margin: 5rem 0;
+  border-radius: 10px;
+  padding: 20px;
+  left: 33%;
+  position: relative;
+  z-index: 100;
 }
 
+
+
+// actual
 .form-header {
-  padding: 2rem 2rem 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
   border-bottom: 1px solid #e2e8f0;
   position: relative;
 }
@@ -81,251 +76,122 @@ body {
   font-size: 1.75rem;
   font-weight: 700;
   color: #2d3748;
-  margin-bottom: 0.5rem;
 }
 
-.form-subtitle {
-  color: #718096;
-  font-size: 0.95rem;
-  line-height: 1.5;
+
+.booking-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.form-body {
-  padding: 2rem;
+.calendar {
+  flex: 1;
 }
 
-.form-group {
-  margin-bottom: 1.5rem;
+.calendar h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
-.form-label {
-  display: block;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #2d3748;
-  margin-bottom: 0.5rem;
+.calendar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
-.required {
-  color: #2b6cb8;
-}
-
-.form-input {
-  width: 100%;
-  padding: 0.875rem 1rem;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  color: #2d3748;
-  background: white;
-  transition: all 0.2s ease;
-  appearance: none;
-  position: relative;
-}
-
-.form-input:focus {
-  outline: none;
-  border-color: #2b6cb8;
-  box-shadow: 0 0 0 3px rgba(43, 108, 184, 0.1);
-}
-
-.form-input::placeholder {
-  color: #a0aec0;
-}
-
-.form-select {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
-  background-position: right 0.75rem center;
-  background-repeat: no-repeat;
-  background-size: 1rem;
-  padding-right: 2.5rem;
+.calendar-nav button {
+  background: none;
+  border: none;
+  font-size: 18px;
   cursor: pointer;
 }
 
-.form-select:focus {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%232b6cb8' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
-}
-
-.optional-label {
-  color: #718096;
-  font-weight: 400;
-}
-
-.submit-button {
+table {
   width: 100%;
-  background: linear-gradient(135deg, #2b6cb8, #1e5a96);
+  border-spacing: 8px;
+}
+
+th {
+  color: #666;
+  font-size: 14px;
+}
+
+td {
+  text-align: center;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+td.active {
+  background-color: #e6f4ff;
+  cursor: pointer;
+}
+
+.selected-date {
+  margin-top: 10px;
+  color: #333;
+}
+
+.time-slots {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.time-slots button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  text-align: left;
+}
+
+.next-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: var(--nova-cloudy-06);
   color: white;
   border: none;
-  padding: 1rem 1.5rem;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 600;
+  border-radius: 32px;
+  font-size: 16px;
   cursor: pointer;
-  transition: all 0.2s ease;
-  position: relative;
-  overflow: hidden;
-  margin-top: 1rem;
 }
 
-.submit-button:hover {
-  background: linear-gradient(135deg, #1e5a96, #1a4d7f);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(43, 108, 184, 0.3);
+//time
+.time-slots button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: white;
+  color: #007bff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.submit-button:active {
-  transform: translateY(0);
+.time-slots button.active {
+  background-color: #007bff;
+  color: white;
 }
 
-.submit-button::after {
-  content: "→";
-  position: absolute;
-  right: 1.5rem;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 1.2rem;
-}
-
-.form-footer {
-  padding: 0 2rem 2rem;
-}
-
-@keyframes slideUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px) scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-@media (min-width: 480px) and (max-width: 767px) {
 
 
-    .hero-section{
-    display: flex;
-    flex-wrap: wrap;
-    }
-
-    .hero-section.right{
-        position: relative;
-    }
-
-
-
-
-  .modal-overlay {
-    width: 100%;
-  }
-
-  .form-container {
-    margin: 21rem 2px 0;
-    width: 100%;
-    left: 0%;
-  }
-
-  .form-header {
-    padding: 1.5rem 1.5rem 1rem;
-  }
-
-  .form-body {
-    padding: 1.5rem;
-  }
-
-  .form-title {
-    font-size: 1.5rem;
-    margin-right: 2rem;
-  }
-
-  .close-button {
-    top: 1rem;
-    right: 1rem;
-  }
-
-  .step-indicator {
-    top: 1rem;
-    right: 3rem;
-  }
-
-  .gps{
-    width: 100%;
-  }
-
-  .left-col-content{
-    padding-bottom: 2rem ;
-  }
+//form
+.formSummary {
+  padding: 5px 10px;
+  background: #fafbfc;
+  border-bottom: 1px solid rgb(245, 237, 237);
 
 }
-@media (min-width: 767px) and (max-width: 1024px ) {
 
-        .hero-section{
-            
-        display: flex;
-    }
+.formFrame {
+  border: 0.5px solid rgb(245, 237, 237);
+  border-radius: 6px;
 
-  .modal-overlay {
-    width: 100%;
-  }
-
-  .form-container {
-    margin: 10rem 2px 0;
-    width: 100%;
-    left: 20%;
-  }
-
-  .form-header {
-    padding: 1.5rem 1.5rem 1rem;
-  }
-
-  .form-body {
-    padding: 1.5rem;
-  }
-
-  .form-title {
-    font-size: 1.5rem;
-    margin-right: 2rem;
-  }
-
-  .close-button {
-    top: 1rem;
-    right: 1rem;
-  }
-
-  .step-indicator {
-    top: 1rem;
-    right: 3rem;
-  }
-}
-
-/* Custom validation styles */
-.form-input:invalid:not(:placeholder-shown) {
-  border-color: #e53e3e;
-}
-
-.form-input:valid:not(:placeholder-shown) {
-  border-color: #38a169;
-}
-
-/* Loading state for button */
-.submit-button.loading {
-  opacity: 0.7;
-  cursor: not-allowed;
-}
-
-.submit-button.loading::after {
-  content: "";
-  width: 20px;
-  height: 20px;
-  border: 2px solid transparent;
-  border-top: 2px solid white;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  to {
-    transform: translateY(-50%) rotate(360deg);
-  }
 }

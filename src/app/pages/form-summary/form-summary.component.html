@@ -1,88 +1,53 @@
  <div class="modal-overlay"></div>
     
-    <div class="form-container">
+ <div class="form">
+        <div class="form-container">
         <div class="form-header">
             <button class="close-button" type="button" aria-label="Close form">×</button>
-            <div class="step-indicator">1/2</div>
+            <div class="step-indicator"><span class="text-24">2</span>/2</div>
             <h1 class="form-title">Book a Free Consultation</h1>
             <p class="form-subtitle">Tell us a bit about your needs — we'll connect you with a specialist to help.</p>
         </div>
 
-  <div class="form-group">
-    <label for="fullName" class="form-label">
-      Full Name <span class="required">*</span>
-    </label>
-    <input 
-      type="text" 
-      id="fullName" 
-      class="form-input" 
-      placeholder="e.g Jane Doe" 
-      formControlName="name"
-    >
-  </div>
 
-  <div class="form-group">
-    <label for="workEmail" class="form-label">
-      Work Email Address <span class="required">*</span>
-    </label>
-    <input 
-      type="email" 
-      id="workEmail" 
-      class="form-input" 
-      placeholder="Jane@company.com" 
-      formControlName="email"
-    >
+  <div class="form-group ">
+    Here is a summary of your booking
+    <div class="formFrame">
+      <div class="formSummary d-flex justify-between ">
+      <p><b>Full Name:</b></p>
+     <p>{{allData.name}}</p> 
+    </div>
+    <div class="formSummary d-flex justify-between ">
+      <p><b>Work Email Address:</b></p>
+     <p>{{allData.email}}</p> 
+    </div>
+    <div class="formSummary d-flex justify-between">
+      <p><b>Phone Number:</b></p>
+     <p>{{allData.phone}}</p> 
+    </div>
+      <div class="formSummary d-flex justify-between">
+      <p><b>Company Name:</b></p>
+     <p>{{allData.company}}</p> 
+    </div>
+      <div class="formSummary d-flex justify-between ">
+      <p><b>Industry:</b></p>
+     <p>{{allData.industry}}</p> 
+    </div>
+      <div class="formSummary d-flex justify-between ">
+      <p><b>Fleet Size:</b></p>
+     <p>{{allData.fleetSize}}</p> 
+    </div>
+      <div class="formSummary d-flex justify-between ">
+      <p><b>Date Selected:</b></p>
+     <p>{{allData.date}}</p> 
+    </div>
+      <div class="formSummary d-flex justify-between ">
+      <p><b>Time Selected:</b></p>
+     <p>{{allData.time}}</p> 
+    </div>
+    </div>
   </div>
-
-  <div class="form-group">
-    <label for="phoneNumber" class="form-label">
-      Phone Number <span class="optional-label">(Optional)</span>
-    </label>
-    <input 
-      type="tel" 
-      id="phoneNumber" 
-      class="form-input" 
-      placeholder="E.g +234 703 000 0000"
-      formControlName="phone"
-    >
-  </div>
-
-  <div class="form-group">
-    <label for="companyName" class="form-label">Company Name</label>
-    <input 
-      type="text" 
-      id="companyName" 
-      class="form-input" 
-      placeholder="E.g Novatrack"
-      formControlName="company"
-    >
-  </div>
-
-  <div class="form-group">
-    <label for="industry" class="form-label">Industry</label>
-    <select id="industry" class="form-input form-select" formControlName="industry">
-      <option value="">Select your Industry</option>
-      <option value="logistics">Logistics & Transportation</option>
-      <option value="delivery">Delivery Services</option>
-      <option value="construction">Construction</option>
-      <option value="agriculture">Agriculture</option>
-      <option value="mining">Mining</option>
-      <option value="government">Government</option>
-      <option value="other">Other</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <label for="fleetSize" class="form-label">Fleet Size</label>
-    <select id="fleetSize" class="form-input form-select" formControlName="fleetSize">
-      <option value="">Select a range</option>
-      <option value="1-10">1–10 vehicles</option>
-      <option value="11-50">11–50 vehicles</option>
-      <option value="51-100">51–100 vehicles</option>
-      <option value="101-250">101–250 vehicles</option>
-      <option value="250+">250+ vehicles</option>
-    </select>
-  </div>
+    <button class="next-button"  type="submit">Next ></button>
 
     </div>
 

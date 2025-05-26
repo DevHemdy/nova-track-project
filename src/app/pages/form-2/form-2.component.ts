@@ -32,10 +32,30 @@ export class Form2Component {
     }, 3000);
     return;
   }
-  const formDataValue2 = this.formDate.value;
-  localStorage.setItem('userFormData', JSON.stringify(formDataValue2));
+ 
+ // Get Form1 data
+  const form1DataRaw = localStorage.getItem('userFormData');
+  const form1Data = form1DataRaw ? JSON.parse(form1DataRaw) : {};
 
-      this.alert.showAlertSuccess('Form Submitted');
+  // Get Form2 data
+  const form2Data = this.formDate.value;
+
+  // Combine both
+  const combinedData = {
+    ...form1Data,
+    ...form2Data,
+  };
+
+  // Save combined data
+  localStorage.setItem('combinedFormData', JSON.stringify(combinedData));
+
+  // Navigate or do something else
+  console.log('Combined Data:', combinedData);
+
+  this.alert.showAlertSuccess('Form Submitted');
+  setTimeout(() => {
+    window.location.href='/form-summary'
+  }, 3000);
 
 }
 
