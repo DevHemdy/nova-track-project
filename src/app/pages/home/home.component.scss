@@ -352,7 +352,7 @@ li{
 
 .shape-container{
     position: absolute;
-    top: 487rem;
+    top: 494rem;
     left: -1rem;
 }
 
@@ -395,7 +395,7 @@ li{
 .text-relative1{
   position: absolute;
     top: 19%;
-    left: 26%;
+    left: 35%;
 }
 
 .btn-relative1{
@@ -474,10 +474,7 @@ li{
   background-repeat: no-repeat;
 }
 
-.text{
-  width: 500px;
-  text-align: center;
-}
+
 
 // phone, tabs and desktop
 @media only screen and (min-width: 275px) and (max-width: 1366px){
@@ -537,6 +534,15 @@ li{
     top: 0%;
     left: 0%;
   }
+
+  
+.btn-relative1{
+    position: absolute;
+    top: 30%;
+    left: 26%;
+
+}
+
 
 }
 
