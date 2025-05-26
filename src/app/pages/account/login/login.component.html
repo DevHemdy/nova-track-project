@@ -1,47 +1,48 @@
-<section class="layout-pt-lg layout-pb-lg bg center-container ">
-    <div class="container">
-      <div class="row justify-center mt-30">
-        <div class="col-xl-6 col-lg-7 col-md-9">
-          <div class="px-50 py-50 sm:px-20 sm:py-20 bg-white shadow-1 rounded-4">
-            <div class="row y-gap-10">
-              <div class="col-12">
-                <h1 class="text-22 fw-900 text-blue-1">Login </h1>
-                <p class="mt-10">Don't have an account? <a routerLink="/signup"  class="text-blue-1 fw-500">Sign Up</a></p>
-              </div>
-
-
-              <div class="col-12">
-
-                <div class="form-input">
-                  <input type="text" required>
-                  <label class="lh-1 text-14 text-light-1">Email</label>
-                </div>
-
-              </div>
-
-              <div class="col-12">
-
-                <div class="form-input ">
-                  <input type="password" required>
-                  <label class="lh-1 text-14 text-light-1">Password</label>
-                </div>
-
-              </div>
-
-
-              <div class="col-12">
-
-                <a href="#" class="button  py-20  button-primary text-white">
-                  Login
-                </a>
-                <p class="mt-10 text-right"><i>Forgotten Password?</i> <a routerLink="/password-reset"  class="reset">Reset</a></p>
-
-              </div>
+<section class="layout-pt-lg layout-pb-lg bg center-container">
+  <div class="container">
+    <div class="row justify-center mt-30">
+      <div class="col-xl-6 col-lg-7 col-md-9">
+        <div class="px-50 py-50 sm:px-20 sm:py-20 bg-white shadow-1 rounded-4">
+          <div class="row y-gap-10">
+            <div class="col-12">
+              <h1 class="text-22 fw-900 text-blue-1">Login</h1>
+              <p class="mt-10">
+                Don't have an account?
+                <a routerLink="/signup" class="text-blue-1 fw-500">Sign Up</a>
+              </p>
             </div>
 
+            <form action="" [formGroup]="loginForm">
+              <div class="col-12">
+                <div class="form-input">
+                  <input type="text" required formControlName="email" />
+                  <label class="lh-1 text-14 text-light-1">Email</label>
+                </div>
+              </div>
+
+              <div class="col-12 pt-10">
+                <div class="form-input">
+                  <input type="password" required formControlName="password" />
+                  <label class="lh-1 text-14 text-light-1">Password</label>
+                </div>
+              </div>
+
+              <div class="col-12 pt-10">
+                <button
+                  (click)="onSubmit()"
+                  class="button py-20 button-primary text-white btn"
+                >
+                  Login
+                </button>
+                <p class="mt-10 text-right">
+                  <i>Forgotten Password?</i>
+                  <a routerLink="/password-reset" class="reset">Reset</a>
+                </p>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
-  </section>
-
+  </div>
+</section>

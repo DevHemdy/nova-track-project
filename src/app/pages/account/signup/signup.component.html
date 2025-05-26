@@ -2,16 +2,17 @@
     <div class="container">
       <div class="row justify-center">
         <div class="col-xl-6 col-lg-7 col-md-9 mt-40">
+                        <form action="" [formGroup]="regForm">
+
           <div class="px-50 py-50 sm:px-20 sm:py-20 bg-white shadow-1 rounded-4 ">
             <div class="row y-gap-10 ">
               <div class="col-12">
                 <h1 class="text-22 fw-900 text-center text-blue-1">Create your account</h1>
               </div>
-
               <div class="col-12">
 
                 <div class="form-input ">
-                  <input type="text" required >
+                  <input type="text" required formControlName="firstName">
                   <label class="lh-1 text-14 text-light-1">First Name</label>
                 </div>
 
@@ -20,7 +21,7 @@
               <div class="col-12">
 
                 <div class="form-input  ">
-                  <input type="text" required >
+                  <input type="text" required formControlName="lastName">
                   <label class="lh-1 text-14 text-light-1">Last Name</label>
                 </div>
 
@@ -29,7 +30,7 @@
               <div class="col-12">
 
                 <div class="form-input ">
-                  <input type="text" required>
+                  <input type="text" required formControlName="email">
                   <label class="lh-1 text-14 text-light-1">Email</label>
                 </div>
 
@@ -38,7 +39,7 @@
               <div class="col-12">
 
                 <div class="form-input ">
-                  <input type="password" required>
+                  <input type="password" required formControlName="password">
                   <label class="lh-1 text-14 text-light-1">Password</label>
                 </div>
 
@@ -47,9 +48,10 @@
               <div class="col-12">
 
                 <div class="form-input ">
-                  <input type="password" required>
+                  <input type="password" required formControlName="confirmPassword">
                   <label class="lh-1 text-14 text-light-1">Confirm Password</label>
                 </div>
+                                <span *ngIf="regForm.controls['password'].value !== regForm.controls['confirmPassword'].value"  class="invalid" >Password Does Not Match</span>
 
               </div>
 
@@ -57,7 +59,7 @@
 
                 <div class="d-flex ">
                   <div class="form-checkbox mt-5">
-                    <input type="checkbox" name="name">
+                    <input type="checkbox" name="name" formControlName="terms">
                     <div class="form-checkbox__mark">
                       <div class="form-checkbox__icon icon-check"></div>
                     </div>
@@ -68,11 +70,18 @@
                 </div>
 
               </div>
-              <div class="col-12">
+              <div class="col-12 pt-20">
 
-                <a href="#" class="button  py-20  button-primary text-white">
-                 Register
-                </a>
+                
+
+             <button
+  type="submit"
+  class="button py-20 button-primary text-white  btn"
+  (click)="onSubmit()"
+>
+  Register
+</button>
+
 
               </div>
             </div>
@@ -111,6 +120,8 @@
             <p class="mt-10 text-right"><i>Already have an account?</i> <a routerLink="/login"  class="reset link">Login</a></p>
 
           </div>
+                        </form>
+
         </div>
       </div>
     </div>
