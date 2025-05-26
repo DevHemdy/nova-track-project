@@ -492,6 +492,11 @@ li{
     width: auto;
   }
 
+  .cards{
+    justify-content: center !important;
+    gap: 2rem;
+  }
+
   .shape{
     display: none;
   }
@@ -517,6 +522,10 @@ li{
 
   .right-col{
     width: 100;
+  }
+
+  .geofencing{
+    padding:2rem;
   }
 }
 

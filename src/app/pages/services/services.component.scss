@@ -244,9 +244,25 @@
 // phone, tabs and desktop
 @media only screen and (min-width: 275px) and (max-width: 1366px) {
 
+  .gps .right-col video{
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+
+
 
 .hero-section{
   flex-direction: column !important;
+}
+
+.matrics-grid, .support-image-1, .support-image-2, .support-image-3, .d-board, .b-dashboard {
+  display: none;
+}
+
+
+.features .section-title h2{
+  width: 100%;
 }
 
   .cards{
