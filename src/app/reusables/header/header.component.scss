@@ -1,4 +1,3 @@
-
 .header{
   position: fixed;
   width: 100%;
@@ -9,6 +8,7 @@
 
 .logo{
     margin: .5rem 0;
+    padding: 0;
 }
 
 .header-nav{
@@ -16,9 +16,26 @@
     width: 100%;
 }
 
-.nav{
+.buttons{
+    padding: 0;
+}
+
+.button{
+    align-content: center;
     // margin: auto 0;
-    justify-content: space-between;
+    // justify-content: space-between;
+}
+
+.button:hover{
+    color: var(--nova-cloudy-06)  !important;
+}
+
+.button-primary{
+    color: #fff;
+}
+.button-primary:hover{
+    background-color: #fff !important;
+    color: var(--nova-cloudy-06) !important;
 }
 
 .header-menu{
@@ -41,9 +58,19 @@
 
 
 .scrolled {
-  background-color: #fffffffd;
+  background-color: #fff !important;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+//   padding: 2rem;
 }
 
+// mobile
+.mobile-menu{
+    padding: .5rem;
+    background-color: #fff!important;
+    border-style: none !important;
+}
 
+.fa-bars{
+    color: var(--nova-cloudy-06);
+}
 

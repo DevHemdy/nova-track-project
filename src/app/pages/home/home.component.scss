@@ -394,8 +394,8 @@ li{
 
 .text-relative1{
   position: absolute;
-  top: 22%;
-  left: 35%;
+    top: 19%;
+    left: 26%;
 }
 
 .btn-relative1{
@@ -474,6 +474,11 @@ li{
   background-repeat: no-repeat;
 }
 
+.text{
+  width: 500px;
+  text-align: center;
+}
+
 // phone, tabs and desktop
 @media only screen and (min-width: 275px) and (max-width: 1366px){
   .overview-container, .cta-container {
@@ -502,7 +507,7 @@ li{
   }
 
   .left-col{
-    padding: 5rem 0;
+    padding: 5rem 1rem;
   }
 
   .video{
@@ -527,6 +532,12 @@ li{
   .geofencing{
     padding:2rem;
   }
+
+  .text-relative1{
+    top: 0%;
+    left: 0%;
+  }
+
 }
 
 

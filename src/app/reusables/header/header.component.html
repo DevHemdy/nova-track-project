@@ -1,17 +1,24 @@
-
-
 <header
   data-add-bg="bg-white"
   class="header js-header bg-white"
   data-x="header"
-  data-x-toggle="is-menu-opened">
+  data-x-toggle="is-menu-opened"
+  [class.scrolled]="isScrolled"
+>
   <!-- ========= Navigation bar ========= -->
-  <div class="header__container header__container-1500 mx-auto px-30 sm:px-20">
+  <div
+    class="container header_container header_container-1500 mx-auto sm:px-20"
+  >
     <div class="row justify-between items-center">
       <!-- ============ logo ========= -->
-      <div class="col-auto">
+      <div class="col-auto logo">
         <div class="d-flex items-center justify-between">
-          <a routerLink="/" class="header-logo mr-50" data-x="header-logo" data-x-toggle="is-logo-dark">
+          <a
+            routerLink="/"
+            class="header-logo mr-50"
+            data-x="header-logo"
+            data-x-toggle="is-logo-dark"
+          >
             <img src="img/logo/NovaTrack-Logo-1.png" alt="logo icon" />
             <img src="img/logo/NovaTrack-Logo-1.png" alt="logo icon" />
           </a>
@@ -20,15 +27,18 @@
         </div>
       </div>
 
-
-     <div class="col-auto">
-        <div class="d-flex items-center">
-                <div class="header-menu" data-x="mobile-menu" data-x-toggle="is-menu-active">
+      <div class="col-auto mt-3">
+        <div class="nav d-flex items-center">
+          <div
+            class="header-menu"
+            data-x="mobile-menu"
+            data-x-toggle="is-menu-active"
+          >
             <div class="mobile-overlay"></div>
             <div class="header-menu__content">
               <div class="mobile-bg js-mobile-bg"></div>
-              
-              <div class="menu js-navList ">
+
+              <div class="menu js-navList">
                 <ul class="menu__nav text-black -is-active">
                   <li>
                     <a routerLink="" class="text-18"> Home </a>
@@ -48,16 +58,17 @@
                 </ul>
               </div>
 
-              <div class="mobile-footer px-20 py-20 border-top-light js-mobile-footer"></div>
+              <div
+                class="mobile-footer px-20 py-20 border-top-light js-mobile-footer"
+              ></div>
             </div>
           </div>
-
         </div>
-        </div>
+      </div>
 
       <!-- =========== Header buttons =========== -->
-      <div class="col-auto">
-        <div class="d-flex items-center">
+      <div class="col-auto buttons mt-3">
+        <div class="nav d-flex items-center">
           <div class="d-flex items-center is-menu-opened-hide md:d-none">
             <a
               href="#"
@@ -65,28 +76,29 @@
               >Contact Us</a
             >
             <a
-             routerLink="/signup"
-              class="button px-30 fw-400 text-14 border-dark-4 -blue-1 h-50 text-dark-4 ml-20"
+              routerLink="/signup"
+              class="button button-primary px-30 fw-400 text-14 border-dark-4 -blue-1 h-50 text-dark-4"
               >Login</a
             >
           </div>
 
           <div
             class="d-none xl:d-flex x-gap-20 items-center pl-30 text-dark-1"
-            data-x="header-mobile-icons" data-x-toggle="text-white"
+            data-x="header-mobile-icons"
+            data-x-toggle="text-white"
           >
-            <div>
-              <a
-                href="#"
-                class="d-flex items-center text-inherit text-22"
-              ><i class="fa fa-user" aria-hidden="true"></i>
-</a>
+            <div class="user">
+              <a href="#" class="d-flex items-center text-inherit text-22"
+                ><i class="fa fa-user" aria-hidden="true"></i>
+              </a>
             </div>
             <div>
               <button
-                class="d-flex items-center text-inherit text-22"
+                class="mobile-menu d-flex items-center text-inherit text-22"
                 data-x-click="html, header, header-logo, header-mobile-icons, mobile-menu"
-              ><i class="fa-solid fa-bars"></i></button>
+              >
+                <i class="fa-solid fa-bars"></i>
+              </button>
             </div>
           </div>
         </div>
