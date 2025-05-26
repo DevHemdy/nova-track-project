@@ -1,38 +1,81 @@
-  <section class="header" [class.scrolled]="isScrolled"   >
-  <div class="container header-container px-0" >
-    <div class="nav d-flex">
-      <!-- logo -->
-      <div class="col-xl-2 logo">
-        <a routerLink="/">
-          <img src="img/logo/NovaTrack-Logo-1.png" alt="logo" />
-        </a>
+<header
+  data-add-bg="bg-white"
+  class="header js-header bg-white"
+  data-x="header"
+  data-x-toggle="is-menu-opened"
+>
+  <!-- mobile- nav -->
+  <!-- <div class="header-menu" data-x="mobile-menu" data-x-toggle="is-menu-active">
+    <div class="mobile-overlay"></div>
+
+    <div class="header-menu__content">
+      <div class="mobile-bg js-mobile-bg"></div>
+
+      <div class="menu js-navList">
+        <ul
+          class="menu-list menu__nav text-black -is-active d-flex justify-center -is-active"
+        >
+          <li class="menu-list-item">
+            <a routerLink="/services"> Services </a>
+          </li>
+          <li class="menu-list-item">
+            <a routerLink="/projects">Projects</a>
+          </li>
+          <li class="menu-list-item">
+            <a routerLink="/company">Company</a>
+          </li>
+          <li class="menu-list-item">
+            <a routerLink="/tickets">Raise a ticket</a>
+          </li>
+        </ul>
       </div>
 
-      <!-- menu list items -->
-      <div class="col-xl-6 nav ">
-        <nav class="header-menu">
-          <ul class="menu-list d-flex justify-center">
-            <li class="menu-list-item">
-              <a routerLink="/services"> Services </a>
-            </li>
-            <li class="menu-list-item">
-              <a routerLink="/projects">Projects</a>
-            </li>
-            <li class="menu-list-item"><a routerLink="/company">Company</a></li>
-            <li class="menu-list-item">
-              <a routerLink="/tickets">Raise a ticket</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <div
+        class="mobile-footer px-20 py-20 border-top-light js-mobile-footer"
+      ></div>
+    </div>
+  </div> -->
 
-      <!-- buttons -->
-      <div class="col-xl-3 nav d-flex btns">
-        <div class="header-buttons">
-          <a routerLink="form" class="button-secondary">Contact Us</a>
-          <a href="#" class="button-primary">Login</a>
+  <!-- main header -->
+
+  <section class="header" [class.scrolled]="isScrolled">
+    <div class="container header-container px-0">
+      <div class="nav d-flex">
+        <!-- logo -->
+        <div class="col-xl-2 logo">
+          <a routerLink="/">
+            <img src="img/logo/NovaTrack-Logo-1.png" alt="logo" />
+          </a>
+        </div>
+
+        <!-- menu list items -->
+        <div class="col-xl-6 nav">
+          <nav class="header-menu">
+            <ul class="menu-list d-flex justify-center">
+              <li class="menu-list-item">
+                <a routerLink="/services"> Services </a>
+              </li>
+              <li class="menu-list-item">
+                <a routerLink="/projects">Projects</a>
+              </li>
+              <li class="menu-list-item">
+                <a routerLink="/company">Company</a>
+              </li>
+              <li class="menu-list-item">
+                <a routerLink="/tickets">Raise a ticket</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- buttons -->
+        <div class="col-xl-3 nav d-flex btns">
+          <div class="header-buttons">
+            <a routerLink="form" class="button-secondary">Contact Us</a>
+            <a href="#" class="button-primary">Login</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</header>
