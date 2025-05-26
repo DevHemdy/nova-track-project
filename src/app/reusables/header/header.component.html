@@ -1,84 +1,96 @@
+
+
 <header
   data-add-bg="bg-white"
   class="header js-header bg-white"
   data-x="header"
-  data-x-toggle="is-menu-opened"
->
-  <!-- mobile- nav -->
-  <!-- <div class="header-menu" data-x="mobile-menu" data-x-toggle="is-menu-active">
-    <div class="mobile-overlay"></div>
+  data-x-toggle="is-menu-opened">
+  <!-- ========= Navigation bar ========= -->
+  <div class="header__container header__container-1500 mx-auto px-30 sm:px-20">
+    <div class="row justify-between items-center">
+      <!-- ============ logo ========= -->
+      <div class="col-auto">
+        <div class="d-flex items-center justify-between">
+          <a routerLink="/" class="header-logo mr-50" data-x="header-logo" data-x-toggle="is-logo-dark">
+            <img src="img/logo/NovaTrack-Logo-1.png" alt="logo icon" />
+            <img src="img/logo/NovaTrack-Logo-1.png" alt="logo icon" />
+          </a>
 
-    <div class="header-menu__content">
-      <div class="mobile-bg js-mobile-bg"></div>
-
-      <div class="menu js-navList">
-        <ul
-          class="menu-list menu__nav text-black -is-active d-flex justify-center -is-active"
-        >
-          <li class="menu-list-item">
-            <a routerLink="/services"> Services </a>
-          </li>
-          <li class="menu-list-item">
-            <a routerLink="/projects">Projects</a>
-          </li>
-          <li class="menu-list-item">
-            <a routerLink="/company">Company</a>
-          </li>
-          <li class="menu-list-item">
-            <a routerLink="/tickets">Raise a ticket</a>
-          </li>
-        </ul>
+          <!-- =========== navigation ============== -->
+        </div>
       </div>
 
-      <div
-        class="mobile-footer px-20 py-20 border-top-light js-mobile-footer"
-      ></div>
-    </div>
-  </div> -->
 
-  <!-- main header -->
+     <div class="col-auto">
+        <div class="d-flex items-center">
+                <div class="header-menu" data-x="mobile-menu" data-x-toggle="is-menu-active">
+            <div class="mobile-overlay"></div>
+            <div class="header-menu__content">
+              <div class="mobile-bg js-mobile-bg"></div>
+              
+              <div class="menu js-navList ">
+                <ul class="menu__nav text-black -is-active">
+                  <li>
+                    <a routerLink="" class="text-18"> Home </a>
+                  </li>
+                  <li>
+                    <a routerLink="/services" class="text-18"> Services </a>
+                  </li>
+                  <li>
+                    <a routerLink="/projects" class="text-18"> Projects </a>
+                  </li>
+                  <li>
+                    <a routerLink="/company" class="text-18">Company</a>
+                  </li>
+                  <li>
+                    <a routerLink="/tickets" class="text-18">Raise a ticket</a>
+                  </li>
+                </ul>
+              </div>
 
-  <section class="header" [class.scrolled]="isScrolled">
-    <div class="container header-container px-0">
-      <div class="nav d-flex">
-        <!-- logo -->
-        <div class="col-xl-2 logo">
-          <a routerLink="/">
-            <img src="img/logo/NovaTrack-Logo-1.png" alt="logo" />
-          </a>
+              <div class="mobile-footer px-20 py-20 border-top-light js-mobile-footer"></div>
+            </div>
+          </div>
+
+        </div>
         </div>
 
-        <!-- menu list items -->
-        <div class="col-xl-6 nav">
-          <nav class="header-menu">
-            <ul class="menu-list d-flex justify-center">
-              <li class="menu-list-item">
-                <a routerLink="/"> Home </a>
-              </li>
-              <li class="menu-list-item">
-                <a routerLink="/services"> Services </a>
-              </li>
-              <li class="menu-list-item">
-                <a routerLink="/projects">Projects</a>
-              </li>
-              <li class="menu-list-item">
-                <a routerLink="/company">Company</a>
-              </li>
-              <li class="menu-list-item">
-                <a routerLink="/tickets">Raise a ticket</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+      <!-- =========== Header buttons =========== -->
+      <div class="col-auto">
+        <div class="d-flex items-center">
+          <div class="d-flex items-center is-menu-opened-hide md:d-none">
+            <a
+              href="#"
+              class="button px-30 fw-400 text-14 -blue-1 bg-dark-4 h-50 text-white"
+              >Contact Us</a
+            >
+            <a
+             routerLink="/signup"
+              class="button px-30 fw-400 text-14 border-dark-4 -blue-1 h-50 text-dark-4 ml-20"
+              >Login</a
+            >
+          </div>
 
-        <!-- buttons -->
-        <div class="col-xl-3 nav d-flex btns">
-          <div class="header-buttons">
-            <a routerLink="form" class="button-secondary">Contact Us</a>
-            <a href="#" class="button-primary">Login</a>
+          <div
+            class="d-none xl:d-flex x-gap-20 items-center pl-30 text-dark-1"
+            data-x="header-mobile-icons" data-x-toggle="text-white"
+          >
+            <div>
+              <a
+                href="#"
+                class="d-flex items-center text-inherit text-22"
+              ><i class="fa fa-user" aria-hidden="true"></i>
+</a>
+            </div>
+            <div>
+              <button
+                class="d-flex items-center text-inherit text-22"
+                data-x-click="html, header, header-logo, header-mobile-icons, mobile-menu"
+              ><i class="fa-solid fa-bars"></i></button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </header>
