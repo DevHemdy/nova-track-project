@@ -5,9 +5,8 @@
 
 // header
 
-
 // .home-wrapper {
-//   background: 
+//   background:
 //     linear-gradient(to right, rgb(255, 255, 255),  rgba(255, 255, 255, 0.945),  rgba(255, 255, 255, 0.829), rgba(255, 255, 255, 0)), /* white gradient */
 //     url('/img/background/hero/4b710bb738de5edb7ea6dcd8055f88a3fe2b88e7.jpg'); /* background image */
 //   background-size: cover;
@@ -16,15 +15,15 @@
 
 .home-wrapper {
   background: linear-gradient(
-    to right,
-    rgb(255, 255, 255),
-    rgba(255, 255, 255, 0.945),
-    rgba(255, 255, 255, 0)
-  ),  url('/assets/hero-bg/company-section-bg.png');
+      to right,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0.945),
+      rgba(255, 255, 255, 0)
+    ),
+    url("/assets/hero-bg/company-section-bg.png");
   background-size: inherit;
   background-repeat: no-repeat;
   background-position: right;
-
 }
 
 .left-col {
@@ -232,6 +231,49 @@ hr {
   color: white;
 }
 
+.cta-section {
+  gap: 2rem;
+  align-items: center;
+}
+
+// input
+.input-container {
+  background: rgba(255, 255, 255, 0.521);
+  padding: 6px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  max-width: 400px;
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #e1e5e9;
+  border-radius: 40px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+  background: #ffffffbe;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  transform: translateY(-2px);
+}
+
+input[type="text"]:hover:not(:focus) {
+  border-color: #c7d2fe;
+}
+
+input[type="text"]::placeholder {
+  color: #9ca3af;
+  font-style: italic;
+}
+
 // customer review
 .customer-review {
   background-color: var(--nova-purple-10);
@@ -371,8 +413,8 @@ hr {
   gap: 1rem;
   border-color: var(--nova-cloudy-06) !important;
   color: var(--nova-cloudy-06) !important;
-  
-    width: fit-content;
+
+  width: fit-content;
 }
 
 // phone
@@ -382,11 +424,9 @@ hr {
     width: 100%;
   }
 
-
   .left-col {
-  padding: 6rem 0;
-}
-
+    padding: 6rem 0;
+  }
 
   .our-story {
     justify-items: center;
@@ -405,8 +445,7 @@ hr {
     left: 0;
   }
 
-
-  .greenbg .text-30{
+  .greenbg .text-30 {
     padding: 20rem 0;
   }
 
