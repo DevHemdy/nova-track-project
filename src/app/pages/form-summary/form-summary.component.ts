@@ -1,8 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-form-summary',
-  imports: [],
+  imports: [CommonModule, RouterModule],
   templateUrl: './form-summary.component.html',
   styleUrl: './form-summary.component.scss'
 })

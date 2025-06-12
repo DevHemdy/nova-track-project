@@ -420,6 +420,10 @@ input[type="text"]::placeholder {
 // phones
 
 @media (max-width: 480px) {
+
+  .cta-section{
+    flex-direction: column;
+  }
   .left-col {
     padding: 5rem 0;
   }
@@ -512,10 +516,17 @@ input[type="text"]::placeholder {
   // value
 
   .values {
-    width: 585px;
+    // width: 585px;
+    margin-top: 5rem;
+    margin-bottom: 5rem ;
     right: -17%;
   }
+
+  .greenbg{
+    margin-top: 20rem;
+  }
   .value-container {
+    position: relative;
     width: 100%;
     left: 0;
     padding: 2rem;
@@ -703,6 +714,155 @@ input[type="text"]::placeholder {
   .v-card img,
   .m-card img {
     top: 0.3rem;
+  }
+
+  // buttons
+  .btn {
+    gap: 2rem;
+  }
+
+  // employee stories
+  .employee-cards {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .employee-card {
+    width: 100%;
+  }
+
+  .why-join-us .cards {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  // customer review
+
+  .customer-review .top {
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .card,
+  .card-2,
+  .card-3,
+  .card-4 {
+    margin-top: 0;
+    width: 100% !important;
+  }
+
+  .customer-review .bottom {
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-right: 0;
+  }
+
+  // sub footer
+
+  .footer-image-container-right {
+    display: none;
+  }
+
+  .footer .btn {
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  .footer-text-container,
+  .text-bdy {
+    width: 100% !important;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-section {
+    // padding: 5rem 2rem 5rem !important;
+    background-size: contain;
+    background-position: right;
+    height: 80vh;
+  }
+
+  hr,
+  .hero-content,
+  .hero-content .text-16 {
+    width: 100%;
+  }
+
+  .our-story {
+    justify-items: center;
+  }
+
+  // story cards
+  .story-cards {
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    width: 600px;
+  }
+
+  .card-5 {
+    width: 100%;
+  }
+
+  // career
+  .career-text {
+    width: 100%;
+  }
+  // value
+
+  .values {
+    // width: 585px;
+    margin-top: 5rem;
+    margin-bottom: 5rem ;
+    right: -17%;
+  }
+  .value-container {
+    width: 100%;
+    left: 0;
+    padding: 2rem;
+  }
+
+  .value-btns {
+    margin: 0 auto;
+  }
+
+  .greenbg .text-30 {
+    padding: 20rem 0;
+  }
+
+  .w-j-u-card {
+    width: inherit;
+  }
+
+  // v-m-cards
+  .v-m-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .v-m-card {
+    width: 100%;
+  }
+
+  .v-m-card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+  }
+
+  .v-card img {
+    top: 4.3rem;
+  }
+
+  .m-card img{
+    top: 6rem;
   }
 
   // buttons
