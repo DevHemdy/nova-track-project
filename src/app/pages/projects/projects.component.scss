@@ -104,7 +104,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   justify-content: space-between;
-  gap: 1rem;
+  // gap: 1rem;
   margin-top: 2rem;
 }
 
@@ -133,7 +133,7 @@
 }
 
 .feature-card {
-  background-color: #dddada;
+  background-color: #F5F5F5;
   padding: 12px;
   border-radius: 12px;
   // width: 288px;
@@ -245,6 +245,7 @@
 
 
 // phones, tablets and desktop
+
 @media only screen and (min-width: 275px) and (max-width: 1366px) {
   .hero{
     padding: 0%;
@@ -277,6 +278,14 @@
   .header-content, .challenge-cards, .solution-features{
     flex-direction: column;
   }
+
+  .challenge-card{
+    width: 100%;
+  }
+
+  .challenge-cards {
+  gap: 1rem;
+}
 
   .header-content .title{
     width: 100% !important;

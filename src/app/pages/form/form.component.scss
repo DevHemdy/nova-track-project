@@ -36,7 +36,7 @@ body {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
   animation: slideUp 0.4s ease-out;
   overflow: hidden;
-  margin: 5rem 0;
+  margin: 15vh 0;
 }
 
 .form-header {
@@ -73,12 +73,12 @@ body {
   top: 2rem;
   right: 1rem;
   font-size: 0.875rem;
-  color:black;
+  color: black;
   font-weight: 500;
 }
 
-.text-blue-1{
-  color:#1279df;
+.text-blue-1 {
+  color: #1279df;
 }
 
 .form-title {
@@ -99,7 +99,7 @@ body {
 }
 
 .form-group {
-  margin-bottom:.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .form-label {
@@ -206,19 +206,14 @@ body {
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-
-
-    .hero-section{
+  .hero-section {
     display: flex;
     flex-wrap: wrap;
-    }
+  }
 
-    .hero-section.right{
-        position: relative;
-    }
-
-
-
+  .hero-section.right {
+    position: relative;
+  }
 
   .modal-overlay {
     width: 100%;
@@ -253,21 +248,18 @@ body {
     right: 3rem;
   }
 
-  .gps{
+  .gps {
     width: 100%;
   }
 
-  .left-col-content{
-    padding-bottom: 2rem ;
+  .left-col-content {
+    padding-bottom: 2rem;
   }
-
 }
-@media (min-width: 767px) and (max-width: 1024px ) {
-
-        .hero-section{
-            
-        display: flex;
-    }
+@media (min-width: 767px) and (max-width: 1024px) {
+  .hero-section {
+    display: flex;
+  }
 
   .modal-overlay {
     width: 100%;
@@ -335,13 +327,12 @@ body {
 }
 
 @media only screen and (min-width: 275px) and (max-width: 1366px) {
-
-  .form{
+  .form {
     justify-items: center;
-    
   }
-  .form-container{
+  .form-container {
     width: 100%;
     left: 0;
+    margin: 10vh auto;
   }
 }

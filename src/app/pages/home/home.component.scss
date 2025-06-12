@@ -1,285 +1,253 @@
 .home-wrapper {
-  background: 
-    linear-gradient(to right, rgb(255, 255, 255),  rgba(255, 255, 255, 0.945),  rgba(255, 255, 255, 0.829), rgba(255, 255, 255, 0)), /* white gradient */
-    url('/img/background/hero/4b710bb738de5edb7ea6dcd8055f88a3fe2b88e7.jpg'); /* background image */
+  background: linear-gradient(
+      to right,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0.945),
+      rgba(255, 255, 255, 0.829),
+      rgba(255, 255, 255, 0)
+    ),
+    url("/img/background/hero/4b710bb738de5edb7ea6dcd8055f88a3fe2b88e7.jpg");
   background-size: cover;
   background-position: center;
 }
-.hero-section {
-  padding: 10rem 0;
-  background-position: cover;
-}
+
 .hero-content {
   max-width: 552px;
 }
 
-// .hero-title {
-//   font-weight: 600px;
-// }
-
-// .hero-text {
-//   font-size: 16px;
-//   width: 497px;
-// }
-
-// .btn{
-//   margin: 2rem 0;
-// }
-
-// .hero-btn {
-//   background-color: #055a9d;
-//   color: white;
-//   border-radius: 40px;
-//   padding: 9px 32px;
-// }
-
-
-
-
-// +++++++++++++ section +++++++++++++++++
-
-.section-title .title{
-  padding: 2rem 0;
+.values {
+  margin: 20px 0;
 }
 
+// section
 
-// ++++++++++ overview +++++++++++++++
- .overview-section{
-  background: url(/img/background/hero/Rectangle\ \(Traced\).png);
+section {
+  padding: 5rem 0 !important;
+}
+
+/* Overview */
+.overview-section {
   padding: 3rem 0;
 }
 
-.overview-container{
-  width: 756px;
-}
-
-.overview-container.section-title{
+.overview-container.section-title {
   width: 626px;
   font-size: 32px;
 }
-.company-overview{
+
+.company-overview {
   max-width: 732px;
 }
 
-
-// ++++++++++++ trusted businesses ++++++++++++++++++
-
-.businesses{
+/* Trusted Businesses */
+.businesses {
   background-color: rgba(255, 255, 255, 0.034);
-  padding: 6rem 0;
+  // padding: 6rem 0;
 }
 
-.business{
+.business {
   border-left: 1px solid rgba(128, 128, 128, 0.281);
 }
 
-.business-1{
+.business-1 {
   border-left: 0 !important;
 }
 
-// ++++++++++++ CTA ++++++++++++++++++
-
-.cta{
+/* Call to Action */
+.cta {
   width: 1440px;
-margin: 5rem auto;
-
+  margin: 5rem auto;
 }
 
-.cta-cards{
+.cta-cards {
   justify-content: space-evenly;
 }
-.cta-card{
+
+.cta-card {
   width: 360px;
-  border: .5px solid rgba(128, 128, 128, 0.356);
+  border: 0.5px solid rgba(128, 128, 128, 0.356);
   border-radius: 25px;
   text-align: center;
   padding: 24px;
   gap: 3px;
 }
 
-
-
-
-
-// ++++++++++ our services +++++++++++++++
-
-.services{
+/* Our Services */
+.services {
   background-color: rgba(223, 222, 222, 0.507);
-  padding: 5rem 0;
+  // padding: 5rem 0;
 }
 
-.service-list{
+.service-list {
   padding-bottom: 1rem;
 }
-.service-list-item{
+
+.service-list-item {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   width: fit-content;
+  padding: 0;
 }
 
-.service-list-item img{
-  width: 1.5rem;
+.service-list-item .icon {
   height: 2rem;
 }
 
-.service-list-item p{
+.service-list-item p {
   margin: 0;
   line-height: 151%;
 }
 
-
-.left-col-content{
+.left-col-content,
+.right-col-content,
+.position3 {
+  width: 100%;
   max-width: 490px;
 }
 
-li{
-   max-width: 380px;
+.right-col-content {
+  position: relative;
+  height: 100%;
 }
 
-.tmw{
-   max-width: 435px;
+li {
+  max-width: 380px;
 }
 
-.position1{
+.tmw {
+  max-width: 435px;
+}
+
+.position1,
+.position2,
+.position3 {
   position: relative;
 }
 
-.position2{
-  position: relative;
+/* Real-time */
+
+video {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
 }
 
-.position3{
-  position: relative;
-}
-
-// +++++++ real-time +++++++++
-.real-time{
-  padding: 5rem 0;
-}
-
-.video{
-  width: 572px;
-  height: 471px;
+.video {
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
-.service-map{
+.service-map {
   position: absolute;
-  top: 55%;
-  right: 60%
+  top: 38%;
+  right: 71%;
 }
 
-//Fuel Monitoring and Cost Optimization 
-.image-barchart2{
+.image-barchart2 {
   position: absolute;
-  right: 13%;
-  bottom: 8%;
+  right: 1%;
+  bottom: 0%;
 }
 
-.image-barchart3{
+.image-barchart3 {
   position: absolute;
-  right: 3%;
-  bottom: 4%;
+  bottom: 1%;
+  width: 20vw;
 }
 
-.pt-15{
+.pt-15 {
   padding-top: 15px;
 }
 
-.text-night-1{
-  color: var(--night-01)
+.text-night-1 {
+  color: var(--night-01);
 }
 
-.text-night-4{
-  color: var(--night-04)
+.text-night-4 {
+  color: var(--night-04);
 }
 
-.text-blue-6{
-  color: var(--nova-cloudy-06)
+.text-blue-6 {
+  color: var(--nova-cloudy-06);
 }
 
-.text-white{
+.text-white {
   color: white;
 }
 
-.management-cards li{
+.management-cards li {
   list-style: disc;
   margin-left: 20px;
 }
 
-.d-flex{
+.d-flex {
   flex-wrap: wrap;
   justify-content: center;
 }
 
-// ++++++ geofencing ++++++++
-.geofencing{
-  padding: 10rem 0;
-}
-
-// ++++++ integration-card-1 ++++++++++++++
-
-.system-integration{
-  margin: 5rem 0;
+/* Integration Cards */
+.service {
+  // margin: 5rem 0;
   padding: 4rem 0;
 }
 
-.integration-card{
-  margin: 2rem 0;
+.integration-card {
+  // margin: 2rem 0;
   padding: 2rem;
 }
-.integration-card-1{
+
+.integration-card-1 {
   background-color: rgba(214, 214, 214, 0.596);
 }
 
-.integration-card-2{
+.integration-card-2 {
   background-color: #047395;
 }
 
-.integration-card-3{
-  background-color: #CDEEF9;
+.integration-card-3 {
+  background-color: #cdeef9;
 }
-.integration-card-1 .card-content .text{
+
+.integration-card-1 .card-content .text,
+.integration-card-2 .card-content .text {
   font-size: 20px;
 }
 
-.integration-card-2 .card-content .text{
+.integration-card-2 .card-content .text {
   color: white;
-  font-size: 20px;
   font-weight: 400;
 }
 
-.integration-card-3 .card-image{
+.integration-card-3 .card-image {
   margin-top: 5rem;
 }
 
-.services .btn{
+.services .btn {
   margin: 1rem 0 !important;
 }
 
-.btn .integration{
+.btn .integration {
   background-color: rgba(255, 255, 255, 0.144);
   color: #047395;
-  
 }
 
-.btn .inverse{
+.btn .inverse {
   background-color: white;
   color: #047395;
 }
 
-.expertise{
+.expertise {
   padding: 5rem 0;
 }
 
-.expertise-card{
+.expertise-card {
   background-color: rgba(92, 92, 92, 0.055) !important;
-
 }
 
-// +++++++++++++++ innovative fleet management section 2 ++++++++++
+/* Fleet Management */
 .fleet-management-section {
-  background-color:#080516;
+  background-color: #080516;
   padding: 5rem 0;
 }
 
@@ -292,15 +260,15 @@ li{
 }
 
 .card-1 {
-  background: linear-gradient(125deg, #0e0925, #35228b, );
+  background: linear-gradient(125deg, #0e0925, #35228b);
 }
 
 .card-2 {
-  background: linear-gradient(125deg, #047395, #0e0925, );
+  background: linear-gradient(125deg, #047395, #0e0925);
 }
 
 .card-3 {
-  background: linear-gradient(125deg, #344216, #0e0925, );
+  background: linear-gradient(125deg, #344216, #0e0925);
 }
 
 .card-1 .card-title .title,
@@ -317,14 +285,15 @@ li{
   color: #cfe0ec99;
 }
 
-// ++++++++++++ expereince section ++++++++++
-
+/* Experience */
 .experience {
   padding: 5rem 0;
 }
+
 .cards {
   padding: 2rem 0;
 }
+
 .card {
   background-color: white;
   width: 389px;
@@ -336,13 +305,7 @@ li{
 }
 
 .card.management-card {
-  background-color: white;
   width: 300px;
-  top: 154px;
-  left: 120px;
-  border-radius: 12px;
-  border-width: 1px;
-  padding: 16px;
 }
 
 .experience-btn {
@@ -350,72 +313,80 @@ li{
   gap: 1rem;
 }
 
-.shape-container{
-    position: absolute;
-    top: 494rem;
-    left: -1rem;
+.shape-container {
+  position: absolute;
+  top: 494rem;
+  left: -1rem;
 }
 
-.shape-container-2{
-    position: absolute;
-    right: 0%;
-    z-index: -1;
+.shape-container-2 {
+  position: absolute;
+  right: 0%;
+  z-index: -1;
 }
 
-.shape-1{
+.shape-1 {
   width: 400px;
-  
 }
 
-.text-md{
+.text-md {
   font-size: 25px !important;
 }
 
-.mt-30{
+.mt-30 {
   margin-top: 30px;
 }
-.mb-30{
+
+.mb-30 {
   margin-bottom: 30px;
 }
 
-//Service
-
-//image section 
-.rich-experience{
+/* Rich Experience */
+.rich-experience {
+  position: absolute;
   width: 100%;
   background: #080516;
 }
 
+.text.rich {
+  position: absolute;
+  left: 35%;
+  top: 17%;
+}
 
-//Features 
-.position4{
+/* Features */
+.position4 {
   position: relative;
 }
 
-.text-relative1{
+.text-relative1 {
   position: absolute;
-    top: 19%;
-    left: 35%;
+  top: 19%;
+  left: 35%;
 }
 
-.btn-relative1{
-    position: absolute;
+.btn-relative1 {
+  position: absolute;
   top: 30%;
   left: 42%;
 }
 
+/* Slider */
 
-
-
-//Slider
-
+.swiper-container {
+  width: 100% !important;
+  max-width: 1300px !important;
+  margin: auto;
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
 .swiper {
   width: 100%;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 .swiper-slide {
-  width: 300px; /* You can vary widths here */
+  width: 300px;
   height: 250px;
   color: white;
   font-weight: bold;
@@ -429,122 +400,270 @@ li{
   text-align: center;
 }
 
-
-
-/* Different styles */
 .slide-1 {
-  background: #eef1f8;
-  color: #16154e;
-    background: url('/assets/home/Frame1.png');
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("/assets/home/Frame1.png") center no-repeat;
   background-color: #f0f5f9;
+  color: #16154e;
 }
 
 .slide-2 {
-  background: #02528d;
-    background: url('/assets/home/Frame2.png');
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("/assets/home/Frame2.png") center no-repeat;
   background-color: #054b83;
 }
 
 .slide-3 {
-  background: #210056;
-    background-image: url('/assets/home/Frame3.png');
-  background-position: center;
-  background-repeat: repeat;
+  background: url("/assets/home/Frame3.png") center repeat;
 }
 
 .slide-4 {
-  background: #eaf6fb;
-
-    background: url('/assets/home/Frame4.png');
+  background: url("/assets/home/Frame4.png") center no-repeat;
   background-color: #edf3f7;
-  background-position: center;
-  background-repeat: no-repeat;
   color: #018abe;
 }
 
 .slide-5 {
-  background: #2c96cb;
-    background: url('/assets/home/Frame5.png');
+  background: url("/assets/home/Frame5.png") center no-repeat;
   background-color: #16154e;
-  background-position:center;
-  background-repeat: no-repeat;
 }
 
-
-
-// phone, tabs and desktop
-@media only screen and (min-width: 275px) and (max-width: 1366px){
-  .overview-container, .cta-container {
-    width: 100% !important;
-  }
-
-  .cta{
-    width: 100%;
-    justify-content: space-around;
-  }
-
-  .cta-cards{
-    display: flex;
-    justify-content: center;
+@media (max-width: 414px) {
+  .cards {
     gap: 2rem;
-    width: auto;
+  }
+}
+
+/* Mobile-first responsive enhancements */
+@media (min-width: 414px), (max-width: 768px), (max-width: 844px) {
+  /* Set base widths to 100% or max-width where needed */
+  .overview-container,
+  .overview-container.section-title,
+  .company-overview,
+  .cta,
+  li,
+  .card,
+  .card.management-card,
+  .management-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
-  .cards{
+  .values {
+    margin: 15px 0;
+  }
+
+  .services,
+  .real-time,
+  .alert,
+  .fuel-monitoring,
+  .system-integration,
+  .expertise,
+  .fleet-management-section,
+  .experience {
+    padding: 5rem 1rem;
+  }
+
+  .cta-card,
+  .integration-card {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+  }
+
+  .service-list-item {
+    // flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .swiper-slide {
+    width: 90%;
+    height: auto;
+    padding: 3rem 0;
+    margin: 1rem auto;
+  }
+
+  .shape-container,
+  .shape-container-2,
+  .position1,
+  .position2,
+  .position3,
+  .text-relative1,
+  .btn-relative1 {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+  }
+
+  .service-map,
+  img.Shape-1,
+  .shape-container-2 {
+    display: none;
+  }
+
+  .system-integration {
+    margin: 0;
+  }
+
+  .text.rich {
+    position: relative;
+    left: 0%;
+  }
+}
+
+/* Use media queries for Tabs and Ipad screens */
+
+@media (max-width: 760px) {
+  .fuel-monitoring {
+    width: 100vw;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section {
+    padding: 16rem 0 5rem !important;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+  }
+
+  // ourservices
+
+  .left-col {
+    padding-bottom: 2rem;
+  }
+
+  .integration-card-1 {
+    margin-bottom: 2rem;
+  }
+
+  .expertise .cards,
+  .experience .cards {
     justify-content: center !important;
     gap: 2rem;
   }
 
-  .shape{
+  .overview-container.section-title {
+    max-width: 626px;
+    font-size: 32px;
+  }
+
+  .values {
+    margin: 20px 0 !important;
+  }
+  .company-overview {
+    max-width: 732px;
+  }
+  .cta {
+    width: 1440px;
+  }
+  .cta-card {
+    width: 360px;
+  }
+  .card,
+  .card.management-card {
+    width: 389px;
+  }
+  .card.management-card {
+    width: 300px;
+  }
+
+  .swiper {
+    width: 90vw;
+  }
+
+  .shape-container {
+    position: absolute;
+    top: 494rem;
+    left: -1rem;
+  }
+  .shape-container-2 {
+    position: absolute;
+    right: 0%;
+    z-index: -1;
+  }
+
+  .shape {
     display: none;
   }
 
-  .left-col{
-    padding: 5rem 1rem;
+  .service-list-item {
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .overview-container {
+    width: 756px;
   }
 
-  .video{
-    width: 100%;
-  }
-
-  video{
-    width: 100%;
-    justify-content: space-around;
-  }
-
-  .service-map{
-    top: 4rem;
-    left: 2rem;
-    width: 150px;
-  }
-
-  .right-col{
-    width: 100;
-  }
-
-  .geofencing{
-    padding:2rem;
-  }
-
-  .text-relative1{
-    top: 0%;
-    left: 0%;
-  }
-
-  
-.btn-relative1{
+  .text.rich {
     position: absolute;
-    top: 30%;
-    left: 26%;
-
+    left: 35%;
+    top: 17%;
+  }
 }
 
-
+/* Set image sizes for responsive display */
+.service-list-item img {
+  width: 1.5rem;
+  height: auto;
 }
 
+/* Responsive typography */
+.text-md {
+  font-size: 1.25rem;
+}
 
+/* Ensure full background coverage */
+.home-wrapper {
+  background: linear-gradient(
+      to right,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0.945),
+      rgba(255, 255, 255, 0.829),
+      rgba(255, 255, 255, 0)
+    ),
+    url("/img/background/hero/4b710bb738de5edb7ea6dcd8055f88a3fe2b88e7.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
+/* Flex adjustments */
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Utility spacing */
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+/* Text colors */
+.text-night-1 {
+  color: var(--night-01);
+}
+
+.text-night-4 {
+  color: var(--night-04);
+}
+
+.text-blue-6 {
+  color: var(--nova-cloudy-06);
+}
+
+.text-white {
+  color: white;
+}

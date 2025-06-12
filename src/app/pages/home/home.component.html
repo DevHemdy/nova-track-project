@@ -6,7 +6,7 @@
           <h1 class="text-50">
             Revolutionizing Fleet Management and IoT Solutions
           </h1>
-          <p class="text-16">
+          <p class="text-16 values">
             Real-time visibility, unmatched efficiency, transformative business
             intelligence.
           </p>
@@ -26,7 +26,7 @@
   </section>
 </div>
 <!-- overview section -->
-<section class="overview-section sm\:w-full">
+<section class="section overview-section sm\:w-full">
   <div class="container overview-container">
     <div class="section-title text-center">
       <h3 class="text-30">
@@ -34,55 +34,61 @@
         Driving Measurable Success at Every Mile
       </h3>
     </div>
-    <div class="text-center">
-      <p class="text-14 pb-3">
+    <div class="text-center my-3">
+      <p class="text-14">
         NovaTrack Limited was founded in 2005 with a singular vision: to
         transform how businesses manage their fleets through innovative
         technology solutions. Headquartered in Lagos, Nigeria, we've grown to
         become a leading provider of fleet management and IoT solutions across
         the region.
       </p>
-      <div class="btn">
+      <div class="btn my-4">
         <a routerLink="form" class="button-primary"> Request a Consultation</a>
       </div>
     </div>
   </div>
 </section>
 
-<div class="swiper mySwiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide slide-1">
-      15+ <br />
-      Years of <br />
-      Innovation
-    </div>
-    <div class="swiper-slide slide-2">
-      1B+ <br />
-      Kilometers <br />
-      Covered <br />
-      Annually
-    </div>
-    <div class="swiper-slide slide-3">
-      200k+ <br />Accidents <br />Prevented<br />
-      Annually
-    </div>
-    <div class="swiper-slide slide-4">
-      40% <br />
-      Reduction in <br />
-      Fuel and <br />
-      diesel Usage
-    </div>
-    <div class="swiper-slide slide-5">
-      44k+ <br />
-      Tracked <br />
-      Assets Last <br />
-      Year
+<!-- carousal section -->
+
+<div class="container-fluid swiper-container">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide-1">
+        15+ <br />
+        Years of <br />
+        Innovation
+      </div>
+      <div class="swiper-slide slide-2">
+        1B+ <br />
+        Kilometers <br />
+        Covered <br />
+        Annually
+      </div>
+      <div class="swiper-slide slide-3">
+        200k+ <br />Accidents <br />Prevented<br />
+        Annually
+      </div>
+      <div class="swiper-slide slide-4">
+        40% <br />
+        Reduction in <br />
+        Fuel and <br />
+        diesel Usage
+      </div>
+      <div class="swiper-slide slide-5">
+        44k+ <br />
+        Tracked <br />
+        Assets Last <br />
+        Year
+      </div>
     </div>
   </div>
 </div>
 
+<!-- carousal section -->
+
 <!-- Trusted businesses -->
-<section class="businesses py-40">
+<section class="businesses">
   <div class="container text-center">
     <div class="section-title">
       <h2 class="title">Top Businesses</h2>
@@ -113,7 +119,7 @@
 </section>
 
 <!-- CTA -->
-<section class="cta">
+<section class="">
   <div class="container cta-container">
     <div class="row cta-cards">
       <div class="col-4 cta-card">
@@ -148,7 +154,7 @@
       <h2 class="text-40">Our Services</h2>
     </div>
 
-    <div class="real-time d-flex">
+    <div class="row service real-time d-flex">
       <div class="col-xl-6 left-col">
         <div class="left-col-content lh-2">
           <h2 class="text-30">Real-Time GPS Tracking</h2>
@@ -158,24 +164,50 @@
             visibility of your entire fleet,allowing you to:
           </p>
           <ul class="service-list col-xl-12">
-            <li class="service-list-item">
-              <img src="img/icons/bullets/1.png" alt="" srcset="" />
-              <p>Track vehicle locations in real-time with live map updates</p>
+            <li class="service-list-item col-xl-12">
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
+              <p class="col-xl-12">
+                Track vehicle locations in real-time with live map updates
+              </p>
             </li>
-            <li class="service-list-item">
-              <img src="img/icons/bullets/1.png" alt="" srcset="" />
+            <li class="service-list-item col-xl-12">
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
 
-              <p>Access historical route data for performance analysis</p>
+              <p class="col-xl-12">
+                Access historical route data for performance analysis
+              </p>
             </li>
-            <li class="service-list-item">
-              <img src="img/icons/bullets/1.png" alt="" srcset="" />
-              <p>
+            <li class="service-list-item col-xl-12">
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
+              <p class="col-xl-12">
                 Monitor vehicle status including ignition, speed, and direction
               </p>
             </li>
-            <li class="service-list-item">
-              <img src="img/icons/bullets/1.png" alt="" srcset="" />
-              <p>Verify job completion and time spent at customer locations</p>
+            <li class="service-list-item col-xl-12">
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
+              <p class="col-xl-12">
+                Verify job completion and time spent at customer locations
+              </p>
             </li>
           </ul>
           <div class="btn">
@@ -183,24 +215,24 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-6 right-col justify-end position1">
-        <img
-          width="350"
-          height="350"
-          src="assets/map.png"
-          class="service-map rounded-16"
-          alt=""
-          srcset=""
-        />
-        <div class="video rounded-16">
-          <video autoplay>
-            <source src="assets/mp4/1.mp4" type="video/mp4" />
-          </video>
+      <div class="col-xl-6 right-col justify-end">
+        <div class="right-col-content">
+          <img
+            src="assets/map.png"
+            class="service-map rounded-16"
+            alt=""
+            srcset=""
+          />
+          <div class="video rounded-16">
+            <video autoplay>
+              <source src="assets/mp4/1.mp4" type="video/mp4" />
+            </video>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="row geofencing d-flex">
+    <div class="row service alert d-flex">
       <div class="col-xl-6 left-col">
         <img
           src="/img/gif/service/Frame 1261154973.png"
@@ -220,27 +252,58 @@
 
           <ul class="service-list col-xl-12">
             <li class="service-list-item">
-              <img src="img/icons/bullets/1.png" alt="" srcset="" />
-              <p>Create unlimited custom geofences around key locations</p>
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
+              <p class="col-xl-12">
+                Create unlimited custom geofences around key locations
+              </p>
             </li>
             <li class="service-list-item">
-              <img src="img/icons/bullets/1.png" alt="" srcset="" />
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
 
-              <p>Receive alerts for unauthorized zone entries or exits</p>
+              <p class="col-xl-12">
+                Receive alerts for unauthorized zone entries or exits
+              </p>
             </li>
             <li class="service-list-item">
-              <img src="img/icons/bullets/1.png" alt="" srcset="" />
-              <p>
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
+              <p class="col-xl-12">
                 Monitor vehicle status including ignition, speed, and directio
               </p>
             </li>
             <li class="service-list-item">
-              <img src="img/icons/bullets/1.png" alt="" srcset="" />
-              <p>Identify route deviations and unauthorized stops</p>
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
+              <p class="col-xl-12">
+                Identify route deviations and unauthorized stops
+              </p>
             </li>
             <li class="service-list-item">
-              <img src="img/icons/bullets/1.png" alt="" srcset="" />
-              <p>
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
+              <p class="col-xl-12">
                 Set up restricted "no-go" zones with automatic notifications
               </p>
             </li>
@@ -254,103 +317,147 @@
     </div>
 
     <!--Section 7-->
-    <div class="row fuel-monitoring d-flex">
+    <div class="row service fuel-monitoring d-flex">
       <div class="col-xl-6 left-col">
-        <h2 class="text-40">Fuel Monitoring and Cost Optimization</h2>
-        <p class="text">
-          Gain complete control over fuel expenditure with our advanced
-          monitoring solutions that help prevent wastage and detect theft:
-        </p>
+        <div class="left-col-content">
+          <h2 class="text-40">Fuel Monitoring and Cost Optimization</h2>
+          <p class="text">
+            Gain complete control over fuel expenditure with our advanced
+            monitoring solutions that help prevent wastage and detect theft:
+          </p>
 
-        <ul class="service-list col-xl-12">
-          <li class="service-list-item">
-            <img src="img/icons/bullets/1.png" alt="" srcset="" />
-            <p>Track fuel consumption patterns across your fleet</p>
-          </li>
-          <li class="service-list-item">
-            <img src="img/icons/bullets/1.png" alt="" srcset="" />
+          <ul class="service-list col-xl-12">
+            <li class="service-list-item">
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
+              <p class="col-xl-12">
+                Track fuel consumption patterns across your fleet
+              </p>
+            </li>
+            <li class="service-list-item">
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
 
-            <p>Identify excessive idling that wastes fuel</p>
-          </li>
-          <li class="service-list-item">
-            <img src="img/icons/bullets/1.png" alt="" srcset="" />
-            <p>
-              Detect suspicious fuel level changes indicating potential theft
-            </p>
-          </li>
-          <li class="service-list-item">
-            <img src="img/icons/bullets/1.png" alt="" srcset="" />
-            <p>Analyze driver behavior impacting fuel efficiency</p>
-          </li>
-          <li class="service-list-item">
-            <img src="img/icons/bullets/1.png" alt="" srcset="" />
-            <p>Generate comprehensive fuel usage reports for cost management</p>
-          </li>
-        </ul>
+              <p class="col-xl-12">
+                Identify excessive idling that wastes fuel
+              </p>
+            </li>
+            <li class="service-list-item">
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
+              <p class="col-xl-12">
+                Detect suspicious fuel level changes indicating potential theft
+              </p>
+            </li>
+            <li class="service-list-item">
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
+              <p class="col-xl-12">
+                Analyze driver behavior impacting fuel efficiency
+              </p>
+            </li>
+            <li class="service-list-item">
+              <img
+                src="img/icons/bullets/1.png"
+                alt=""
+                srcset=""
+                class="icon col-xl-3"
+              />
+              <p class="col-xl-12">
+                Generate comprehensive fuel usage reports for cost management
+              </p>
+            </li>
+          </ul>
 
-        <div class="btn">
-          <a href="#" class="button-primary">Learn more > </a>
+          <div class="btn">
+            <a href="#" class="button-primary">Learn more > </a>
+          </div>
         </div>
       </div>
       <div class="col-xl-6 right-col position2">
-        <img src="/img/gif/service/Rectangle 4.png" alt="" srcset="" />
-        <img src="assets/barchart.png" class="image-barchart2" alt="" />
+        <div class="right-col-content">
+          <img src="/img/gif/service/Rectangle 4.png" alt="" srcset="" />
+          <img src="assets/barchart.png" class="image-barchart2" alt="" />
+        </div>
       </div>
     </div>
 
     <!--Section 8-->
-    <div class="row system-integration">
+    <div class="row service system-integration">
       <div class="col-xl-6 left-col">
-        <div class="col-xl-12 integration-card integration-card-1 rounded-16">
-          <div class="card-content">
-            <div class="card-title">
-              <h2 class="text-50">System Integration</h2>
-            </div>
-            <p class="text-16 tmw text-night-4">
-              Our solutions seamlessly integrate with your existing business
-              systems:
-            </p>
-            <a routerLink="form" class="text-blue-6 text-16"
-              ><b>Book a Consultation ></b>
-            </a>
+        <div class="left-col-content">
+          <div class="col-xl-12 integration-card integration-card-1 rounded-16">
+            <div class="card-content">
+              <div class="card-title">
+                <h2 class="text-40 title">System Integration</h2>
+              </div>
+              <p class="text-16 tmw text-night-4">
+                Our solutions seamlessly integrate with your existing business
+                systems:
+              </p>
+              <a routerLink="form" class="text-blue-6 text-16"
+                ><b>Book a Consultation ></b>
+              </a>
 
-            <div class="card-image pt-10">
-              <img src="/img/gif/service/Rectangle 6.png" alt="" srcset="" />
+              <div class="card-image pt-10">
+                <img src="/img/gif/service/Rectangle 6.png" alt="" srcset="" />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-xl-12 integration-card integration-card-2 rounded-16">
-          <div class="card-content">
-            <p class="text-16 text-white tmw">
-              At NovaTrack, we deliver comprehensive fleet management and IoT
-              solutions designed to optimize your operations, enhance
-              productivity, and drive business growth. Our technology platform
-              provides real-time insights, automated reporting, and customizable
-              dashboards tailored to your specific business needs.
-            </p>
+          <div class="col-xl-12 integration-card integration-card-2 rounded-16">
+            <div class="card-content">
+              <p class="text-16 text-white tmw">
+                At NovaTrack, we deliver comprehensive fleet management and IoT
+                solutions designed to optimize your operations, enhance
+                productivity, and drive business growth. Our technology platform
+                provides real-time insights, automated reporting, and
+                customizable dashboards tailored to your specific business
+                needs.
+              </p>
 
-            <div class="btn">
-              <a routerLink="services" class="button-secondary inverse"
-                >See all Services >
-              </a>
+              <div class="btn">
+                <a routerLink="services" class="button-secondary inverse"
+                  >See all Services >
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="col-xl-6 right-col">
-        <div class="integration-card integration-card-3 rounded-16">
-          <div class="card-title">
-            <h2 class="text-40">Comprehensive Reporting and Analytics</h2>
-          </div>
-          <p class="text-16 tmw">
-            Transform your fleet data into actionable business intelligence
-          </p>
-          <a routerLink="form" class="text-blue-6"
-            ><b>Book a Consultation ></b></a
-          >
-          <div class="card-image position3">
-            <img src="assets/barchart.png" class="image-barchart3" alt="" />
-            <img src="/img/gif/service/Rectangle 5.png" alt="" srcset="" />
+        <div class="right-col-content">
+          <div class="integration-card integration-card-3 rounded-16">
+            <div class="card-title">
+              <h2 class="text-30 title">
+                Comprehensive Reporting and Analytics
+              </h2>
+            </div>
+            <p class="text-16 tmw">
+              Transform your fleet data into actionable business intelligence
+            </p>
+            <a routerLink="form" class="text-blue-6"
+              ><b>Book a Consultation ></b></a
+            >
+            <div class="card-image position3">
+              <img src="assets/barchart.png" class="image-barchart3" alt="" />
+              <img src="/img/gif/service/Rectangle 5.png" alt="" srcset="" />
+            </div>
           </div>
         </div>
       </div>
@@ -363,7 +470,7 @@
 <section class="fleet-management-section">
   <div class="container position4">
     <img src="assets/rich-experience.png" alt="" />
-    <div class="text">
+    <div class="text rich">
       <h2 class="text-30 text-white text-center mb-30 text-relative1">
         Feature Rich Experiences
       </h2>
@@ -379,60 +486,62 @@
 <!-- ------ Expertise section --------- -->
 
 <section class="expertise">
-  <div class="container expertise-container">
-    <div class="section-title text-center">
-      <h2 class="title">Our Expertise at a glance</h2>
-    </div>
-    <div class="row cards justify-content-between">
-      <div class="col-xl-4 card expertise-card">
-        <div class="card-image">
-          <img src="/img/gif/enterprise/Group 5565.png" alt="" srcset="" />
-        </div>
-        <div class="card-title">
-          <h2 class="title">Fleet Management Solution</h2>
-        </div>
+  <div class="container">
+    <div class="expertise-container">
+      <div class="section-title text-center">
+        <h2 class="title">Our Expertise at a glance</h2>
+      </div>
+      <div class="row cards justify-content-between">
+        <div class="col-xl-4 card expertise-card">
+          <div class="card-image">
+            <img src="/img/gif/enterprise/Group 5565.png" alt="" srcset="" />
+          </div>
+          <div class="card-title">
+            <h2 class="title">Fleet Management Solution</h2>
+          </div>
 
-        <div class="card-text">
-          <p class="text">
-            Experience real-time GPS tracking, comprehensive fuel management,
-            proactive maintenance scheduling, and robust driver and shipment
-            management for operational excellence
-          </p>
+          <div class="card-text">
+            <p class="text">
+              Experience real-time GPS tracking, comprehensive fuel management,
+              proactive maintenance scheduling, and robust driver and shipment
+              management for operational excellence
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 card expertise-card">
+          <div class="card-image">
+            <img src="/img/gif/enterprise/Group 5566.png" alt="" srcset="" />
+          </div>
+          <div class="card-title">
+            <h2 class="title">IoT Solutions</h2>
+          </div>
+
+          <div class="card-text">
+            <p class="text">
+              Transform your logistics and transport operations with smart IoT
+              devices designed for optimization, security, and efficiency.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 card expertise-card">
+          <div class="card-image">
+            <img src="/img/gif/enterprise/Pie.png" alt="" srcset="" />
+          </div>
+          <div class="card-title">
+            <h2 class="title">Reporting & Analytics</h2>
+          </div>
+
+          <div class="card-text">
+            <p class="text">
+              Leverage customizable dashboards, automated alerts, and actionable
+              insights to drive strategic decision-making.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="col-xl-4 card expertise-card">
-        <div class="card-image">
-          <img src="/img/gif/enterprise/Group 5566.png" alt="" srcset="" />
-        </div>
-        <div class="card-title">
-          <h2 class="title">IoT Solutions</h2>
-        </div>
-
-        <div class="card-text">
-          <p class="text">
-            Transform your logistics and transport operations with smart IoT
-            devices designed for optimization, security, and efficiency.
-          </p>
-        </div>
+      <div class="btn text-center">
+        <a routerLink="/form" class="button-primary"> Request a Consultation</a>
       </div>
-      <div class="col-xl-4 card expertise-card">
-        <div class="card-image">
-          <img src="/img/gif/enterprise/Pie.png" alt="" srcset="" />
-        </div>
-        <div class="card-title">
-          <h2 class="title">Reporting & Analytics</h2>
-        </div>
-
-        <div class="card-text">
-          <p class="text">
-            Leverage customizable dashboards, automated alerts, and actionable
-            insights to drive strategic decision-making.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="btn text-center">
-      <a routerLink="/form" class="button-primary"> Request a Consultation</a>
     </div>
   </div>
 </section>

@@ -1312,7 +1312,7 @@ function sectionSlider() {
       centeredSlides: centered,
       parallax: true,
       watchSlidesVisibility: true,
-      loop: loop,
+      loop: true,
       loopAdditionalSlides: 1,
       preloadImages: false,
       lazy: true,
