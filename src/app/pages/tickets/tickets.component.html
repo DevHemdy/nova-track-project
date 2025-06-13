@@ -41,7 +41,10 @@
   </p>
 
   <div class="btn">
-    <a routerLink="/form" class="button-primary">Submit a ticket</a>
+
+         <button (click)="showPopup = true" class="button-primary">Submit a ticket</button>
+
+      <app-form  *ngIf="showPopup" (close)="showPopup = false"></app-form>
   </div>
 </section>
 </div>

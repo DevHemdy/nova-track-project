@@ -11,9 +11,9 @@
             intelligence.
           </p>
           <div class="btn">
-            <a routerLink="form" class="button-primary">
-              Request a Consultation</a
-            >
+      <button (click)="showPopup = true" class="button-primary">Request a Consultation</button>
+
+      <app-form  *ngIf="showPopup" (close)="showPopup = false"></app-form>
           </div>
         </div>
       </div>
@@ -43,7 +43,9 @@
         the region.
       </p>
       <div class="btn my-4">
-        <a routerLink="form" class="button-primary"> Request a Consultation</a>
+              <button (click)="showPopup = true" class="button-primary">Request a Consultation</button>
+
+      <app-form  *ngIf="showPopup" (close)="showPopup = false"></app-form>
       </div>
     </div>
   </div>
@@ -211,8 +213,11 @@
             </li>
           </ul>
           <div class="btn">
-            <a routerLink="form" class="button-primary"> Book a Consultation</a>
+                            <button (click)="showPopup = true" class="button-primary">Book a Consultation</button>
+
+      <app-form  *ngIf="showPopup" (close)="showPopup = false"></app-form>
           </div>
+
         </div>
       </div>
       <div class="col-xl-6 right-col justify-end">
@@ -411,7 +416,7 @@
                 Our solutions seamlessly integrate with your existing business
                 systems:
               </p>
-              <a routerLink="form" class="text-blue-6 text-16"
+              <a routerLink="/tickets" class="text-blue-6 text-16"
                 ><b>Book a Consultation ></b>
               </a>
 
@@ -451,9 +456,8 @@
             <p class="text-16 tmw">
               Transform your fleet data into actionable business intelligence
             </p>
-            <a routerLink="form" class="text-blue-6"
-              ><b>Book a Consultation ></b></a
-            >
+            <a routerLink="/tickets" class="text-blue-6"  ><b>Book a Consultation ></b></a >
+
             <div class="card-image position3">
               <img src="assets/barchart.png" class="image-barchart3" alt="" />
               <img src="/img/gif/service/Rectangle 5.png" alt="" srcset="" />
@@ -540,7 +544,7 @@
         </div>
       </div>
       <div class="btn text-center">
-        <a routerLink="/form" class="button-primary"> Request a Consultation</a>
+        <a routerLink="/tickets" class="button-primary"> Request a Consultation</a>
       </div>
     </div>
   </div>
@@ -716,7 +720,10 @@
       </div>
     </div>
     <div class="btn experience-btn d-flex mt-30 mb-30">
-      <a routerLink="/form" class="button-primary"> Request a Consultation</a>
+      <button (click)="showPopup = true" class="button-primary">Request a Consultation</button>
+
+      <app-form  *ngIf="showPopup" (close)="showPopup = false"></app-form>
+      <!-- <a routerLink="/form" class="button-primary"> Request a Consultation</a> -->
       <a href="#" class="button-tertiary2"> Schedule Demo</a>
     </div>
     <div class="section-footer"></div>

@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { AlertService } from '../../services/alert.service';
@@ -37,6 +37,10 @@ onSubmit() {
   window.location.href = '/form-2';
 }
 
+  @Output() close = new EventEmitter<void>();
 
+  closePopup() {
+    this.close.emit(); // tells parent to hide the popup
+  }
 
 }

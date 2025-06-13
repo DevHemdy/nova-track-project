@@ -3,13 +3,14 @@ import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import Swiper from 'swiper';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+import { FormComponent } from "../form/form.component";
 
 
 
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, FormComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
@@ -79,5 +80,13 @@ export class HomeComponent implements OnInit{
     ngOnInit(): void {
     window.scrollTo(0,0)
     
+  }
+
+
+  showPopup = false;
+
+
+  onPopupClose() {
+    this.showPopup = false; // hide the form
   }
 }

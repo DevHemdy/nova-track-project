@@ -1,14 +1,17 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { RouterLink, RouterModule } from '@angular/router';
+import { FormComponent } from "../form/form.component";
 
 @Component({
   selector: 'app-tickets',
-  imports: [CommonModule,RouterModule],
+  imports: [CommonModule, RouterModule, FormComponent],
   templateUrl: './tickets.component.html',
   styleUrl: './tickets.component.scss'
 })
 export class TicketsComponent implements OnInit{
+
+    showPopup = false;
 
    advanceTool: any = [
  
