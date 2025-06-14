@@ -6530,8 +6530,8 @@ iframe.wait-autoplay {
 
 @font-face {
     font-family: icomoon;
-    src: url(../fonts/icomoonf78a.eot?ibiouq);
-    src: url(../fonts/icomoonf78a.eot?ibiouq#iefix) format("embedded-opentype"), url(../fonts/icomoonf78a.ttf?ibiouq) format("truetype"), url(../fonts/icomoonf78a.woff?ibiouq) format("woff"), url(../fonts/icomoonf78a.svg?ibiouq#icomoon) format("svg");
+    src: url(/assets/fonts/icomoonf78a.eot?ibiouq);
+    src: url(/assets/fonts/icomoonf78a.eot?ibiouq#iefix) format("embedded-opentype"), url(/assets/icomoonf78a.ttf?ibiouq) format("truetype"), url(/assets/icomoonf78a.woff?ibiouq) format("woff"), url(/assets/icomoonf78a.svg?ibiouq#icomoon) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: block
