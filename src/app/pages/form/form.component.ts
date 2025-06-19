@@ -43,4 +43,9 @@ onSubmit() {
     this.close.emit(); // tells parent to hide the popup
   }
 
+  ngOnInit(): void {
+    window.scrollTo(0,0)
+    
+  }
+
 }
