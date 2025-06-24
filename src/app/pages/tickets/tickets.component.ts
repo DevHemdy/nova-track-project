@@ -31,7 +31,7 @@ export class TicketsComponent implements OnInit{
       id: 1,
       icon: "assets/icons/black-3.png",
       title: "Email",
-      text: "info@novatrack.com"
+      text: "Info@novatrack.net"
     },
         {
       id: 1,
