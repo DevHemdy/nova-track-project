@@ -19,8 +19,7 @@
   margin: 20px 0;
 }
 
-// section
-
+/* Section */
 section {
   padding: 5rem 0 !important;
 }
@@ -42,7 +41,7 @@ section {
 /* Trusted Businesses */
 .businesses {
   background-color: rgba(255, 255, 255, 0.034);
-  // padding: 6rem 0;
+  /* padding: 6rem 0; */
 }
 
 .business {
@@ -76,7 +75,6 @@ section {
 /* Our Services */
 .services {
   background-color: rgba(223, 222, 222, 0.507);
-  // padding: 5rem 0;
 }
 
 .service-list {
@@ -126,7 +124,6 @@ li {
 }
 
 /* Real-time */
-
 video {
   width: inherit;
   height: inherit;
@@ -189,12 +186,12 @@ video {
 
 /* Integration Cards */
 .service {
-  // margin: 5rem 0;
+  /* margin: 5rem 0; */
   padding: 4rem 0;
 }
 
 .integration-card {
-  // margin: 2rem 0;
+  /* margin: 2rem 0; */
   padding: 2rem;
 }
 
@@ -373,7 +370,6 @@ video {
 }
 
 /* Slider */
-
 .swiper-container {
   width: 100% !important;
   max-width: 1300px !important;
@@ -381,6 +377,7 @@ video {
   padding: 1rem 0;
   box-sizing: border-box;
 }
+
 .swiper {
   width: 100%;
   padding: 1.5rem 0;
@@ -435,7 +432,6 @@ video {
 
 /* Mobile-first responsive enhancements */
 @media (min-width: 414px), (max-width: 768px), (max-width: 844px) {
-  /* Set base widths to 100% or max-width where needed */
   .overview-container,
   .overview-container.section-title,
   .company-overview,
@@ -474,7 +470,7 @@ video {
   }
 
   .service-list-item {
-    // flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
   }
 
@@ -515,13 +511,12 @@ video {
   }
 }
 
-/* Use media queries for Tabs and Ipad screens */
-
 @media (max-width: 760px) {
   .fuel-monitoring {
     width: 100vw;
   }
 }
+
 @media (min-width: 768px) {
   .hero-section {
     padding: 16rem 0 5rem !important;
@@ -530,8 +525,7 @@ video {
     height: 80vh;
   }
 
-  // ourservices
-
+  /* Our Services */
   .left-col {
     padding-bottom: 2rem;
   }
@@ -554,19 +548,24 @@ video {
   .values {
     margin: 20px 0 !important;
   }
+
   .company-overview {
     max-width: 732px;
   }
+
   .cta {
     width: 1440px;
   }
+
   .cta-card {
     width: 360px;
   }
+
   .card,
   .card.management-card {
     width: 389px;
   }
+
   .card.management-card {
     width: 300px;
   }
@@ -580,6 +579,7 @@ video {
     top: 494rem;
     left: -1rem;
   }
+
   .shape-container-2 {
     position: absolute;
     right: 0%;
