@@ -7,12 +7,23 @@
           Whether you need support, a custom quote, or want to learn more about
           our solutions — we're here for you.
         </p>
+
+        <div class="btn">
+  <button (click)="openSupport()" class="button-primary" type="button">
+    Submit a ticket
+  </button>
+</div>
       </div>
       <div class="col-xl-6 right-col">
         <img src="/assets/tickets/Rectangle 3.png" alt="" srcset="" />
       </div>
     </section>
   </div>
+
+
+  <section class="cta">
+
+
 
   <div class="container">
     <div class="section-content">
@@ -22,7 +33,7 @@
             <img class="card-icon" src="{{ item.icon }}" alt="" srcset="" />
           </div>
           <div class="card-body">
-            <h4 class="text-20">
+            <h4 class="text-20 mt-3">
               {{ item.title }}
             </h4>
             <p class="text-16">{{ item.text }}</p>
@@ -31,8 +42,8 @@
       </div>
     </div>
   </div>
-
-  <section class="cta">
+  </section>
+  <!-- <section class="cta">
     <h1 class="text-32">Do you want to raise a ticket?</h1>
     <p class="text-18">
       Whether you need support, a custom quote, or want to learn more about our
@@ -46,5 +57,11 @@
 
       <app-form *ngIf="showPopup" (close)="showPopup = false"></app-form>
     </div>
-  </section>
+<div class="btn">
+  <button (click)="openSupport()" class="button-primary" type="button">
+    Submit a ticket
+  </button>
+</div>
+
+  </section> -->
 </div>

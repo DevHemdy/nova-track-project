@@ -5,7 +5,7 @@ import { FormComponent } from "../form/form.component";
 
 @Component({
   selector: 'app-tickets',
-  imports: [CommonModule, RouterModule, FormComponent],
+  imports: [CommonModule, RouterModule],
   templateUrl: './tickets.component.html',
   styleUrl: './tickets.component.scss'
 })
@@ -41,9 +41,12 @@ export class TicketsComponent implements OnInit{
     }
 
   ]
+ngOnInit(): void {
+  window.scrollTo(0, 0);
+}
 
-    ngOnInit(): void {
-    window.scrollTo(0,0)
-    
-  }
+openSupport(): void {
+  window.open('https://support.novatrack-webservices.net', '_blank');
+}
+
 }
